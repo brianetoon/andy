@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <HomeBanner />
     <FeaturedProjects />
     <MyProcess />
@@ -19,3 +19,9 @@ export default {
   components: { HomeBanner, FeaturedProjects, MyProcess, AboutMe, Contact }
 }
 </script>
+
+<style>
+#home {
+  height: 200vh;
+}
+</style>
