@@ -1,18 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
+/* Variables */
 :root {
     --primary: #00F3CB;
     --secondary:#FF63DF;
     --background: #222222;
 }
 
-/* base styles */
+/* Reset */
+h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+/* Base Styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
 body {
     background: var(--background);
     color: #ffffff;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
     margin: 0;
 }
-h1, h2, h3, p {
-    margin: 0;
+h1, h2 {
+    font-size: 28px;
+}
+p {
+    font-size: 17px;
+    line-height: 29px;
+}
+section .title {
+    text-align: center;
+}
+.sub-text {
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: center;
+}
+.link {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* Buttons & Icons */
+button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 0;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    background: none;
+    color: var(--primary);
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-solid {
+    color: #424242;
+    background: var(--primary);
 }

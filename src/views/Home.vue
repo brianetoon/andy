@@ -1,27 +1,28 @@
 <template>
-  <div id="home">
-    <HomeBanner />
+  <main class="home">
+    <VideoBanner />
     <FeaturedProjects />
     <MyProcess />
     <AboutMe />
     <Contact />
-  </div>
+  </main>
 </template>
 
 <script>
-import HomeBanner from '@/components/HomeBanner.vue'
-import FeaturedProjects from '@/components/FeaturedProjects.vue'
-import MyProcess from '@/components/MyProcess.vue'
-import AboutMe from '@/components/AboutMe.vue'
-import Contact from '@/components/Contact.vue'
+import VideoBanner from '@/components/home/VideoBanner.vue'
+import FeaturedProjects from '@/components/home/FeaturedProjects.vue'
+import MyProcess from '@/components/home/MyProcess.vue'
+import AboutMe from '@/components/home/AboutMe.vue'
+import Contact from '@/components/home/Contact.vue'
 
 export default {
-  components: { HomeBanner, FeaturedProjects, MyProcess, AboutMe, Contact }
+  components: { VideoBanner, FeaturedProjects, MyProcess, AboutMe, Contact }
 }
 </script>
 
 <style>
-#home {
-  height: 200vh;
+.home section:not(:first-child) {
+  padding: 0 40px;
+  margin: 70px 0;
 }
 </style>
