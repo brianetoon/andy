@@ -1,7 +1,8 @@
 <template>
     <div id="project-details">
+        <ProjectNav />
         <h2>Project Details Template</h2>
-        <img :src="require(`@/assets/images/${project.testImg}`)">
+        <img :src="require(`@/assets/images/${project.testImg}`)" class="shaq">
         <h3>Title: {{ project.title }}</h3>
         <p>{{ project.lead }}</p>
     </div>
@@ -10,9 +11,11 @@
 <script>
 import store from '@/store.js'
 import { computed } from '@vue/reactivity'
+import ProjectNav from '@/components/navigation/project_navigation/ProjectNav.vue'
 
 export default {
     props: ['slug'],
+    components: { ProjectNav },
     setup(props) {
 
         const project = computed(() => {
@@ -23,19 +26,11 @@ export default {
 
         return { project }
     }
-
-    // computed: {
-    //     project() {
-    //         return store.projects.find(project => {
-    //             return project.slug === this.slug
-    //         })
-    //     }
-    // }
 }
 </script>
 
 <style>
-#project-details img {
+.shaq {
     width: 200px;
 }
 </style>

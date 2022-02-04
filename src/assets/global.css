@@ -47,6 +47,25 @@ section .title {
     text-decoration: underline;
 }
 
+/* Nav Styles */
+header {
+    background: #151515;
+    padding: 0 30px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav-content {
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 /* Buttons & Icons */
 button {
     display: block;

@@ -1,5 +1,5 @@
 <template>
-    <section class="about">
+    <section id="about">
         <h2 class="title">About Me</h2>
     </section>
 </template>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style>
-.about {
+#about {
     height: 50vh;
 }
 </style>
