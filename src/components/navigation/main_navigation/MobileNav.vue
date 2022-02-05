@@ -38,7 +38,7 @@ export default {
         onMounted(() => {
             gsap.set('.dropdown', {scaleY:0})
             gsap.set('.dropdown li', {opacity:0, scale:0.2})
-            animation = gsap.timeline({paused:true, defaults:{duration:0.35}})
+            animation = gsap.timeline({paused:true, defaults:{duration:0.4}})
                 .to('.dropdown', {scaleY:1, ease:'back'})
                 .to('.dropdown li', {scale:1, opacity:1}, '-=0.1')
         })

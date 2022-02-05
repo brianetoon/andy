@@ -29,7 +29,7 @@ export default {
   margin: 30px auto;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .home section:not(:nth-child(2)) {
     padding: 0 40px
   }

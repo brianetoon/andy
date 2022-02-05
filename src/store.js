@@ -7,7 +7,12 @@ export default {
             slug: "lamden",
             gradient: "lamden",
             testImg: "shaq.png",
-            lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone."
+            lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
+            banner: {
+                title: "Lamden - Blockchain",
+                text: "In 2018 I started following Lamden. What began as curiousity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
+                background: 'lamden-banner'
+            }
         },
         {
             id: 2,
@@ -16,7 +21,12 @@ export default {
             slug: "lambdoge",
             gradient: "lambdoge",
             testImg: "shaq.png",
-            lead: "A comic book series that is written by, voted on and enjoyed by the LambDoge community."
+            lead: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
+            banner: {
+                title: "LambDoge - Comic NFTs",
+                text: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
+                background: 'lambdoge-banner'
+            }
         },
         {
             id: 3,
@@ -25,7 +35,12 @@ export default {
             slug: "nebula",
             gradient: "nebula",
             testImg: "shaq.png",
-            lead: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors."
+            lead: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors.",
+            banner: {
+                title: "Nebula - DeFi",
+                text: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors",
+                background: 'nebula-banner'
+            }
         },
         {
             id: 4,
@@ -34,7 +49,13 @@ export default {
             slug: "blender",
             gradient: "blender",
             testImg: "shaq.png",
-            lead: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously."
+            lead: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously.",
+            banner_text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
+            banner: {
+                title: "Blender - dApp",
+                text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
+                background: 'blender-banner'
+            }
         }
     ],
     process: [

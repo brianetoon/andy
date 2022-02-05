@@ -1,5 +1,5 @@
 <template>
-    <section class="video-banner">
+    <section id="video-banner">
         <video autoplay muted loop>
             <source src="@/assets/videos/video.webm" type="video/webm">
             Your browser does no support HTML5 video
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style>
-.video-banner {
+#video-banner {
     width: 100%;
     position: relative;
     height: 420px;
@@ -45,25 +45,45 @@ video {
     height: inherit;
     background: rgba(0, 0, 0, 0.5);
 }
-.content {
+#video-banner .content {
     height: inherit;
-    padding: 30px 40px;
+    padding: 30px;
     position: relative;
 }
-.content > * {
+#video-banner .content > * {
     margin-bottom: 20px;
 }
 .highlight {
     color: var(--primary);
 }
-.video-banner button {
+#video-banner button {
     margin: 40px auto 20px;
 }
-.video-banner .sub-text {
+#video-banner .sub-text {
     white-space: nowrap;
     position: absolute;
     bottom: 5px;
     left: 50%;
     transform: translateX(-50%)
+}
+
+@media screen and (min-width: 768px) {
+    #video-banner .content {
+        text-align: left;
+        padding: 30px 40px;
+    }
+    #video-banner button {
+        margin: 40px 0 20px;
+        max-width: 200px;
+    }
+    #video-banner .icon-bar {
+        margin: 0 10px;
+    }
+    #video-banner .sub-text {
+        left: 40px;
+        transform: translateX(0);
+        bottom: 15px;
+        text-align: left;
+    }
 }
 </style>

@@ -19,10 +19,7 @@ export default {
     display: none;
 }
 
-@media screen and (min-width: 760px) {
-    header {
-        padding: 0 40px;
-    }
+@media screen and (min-width: 640px) {
     .mobile-nav {
         display: none;
     }

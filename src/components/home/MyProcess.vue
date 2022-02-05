@@ -41,7 +41,7 @@ export default {
     grid-column: span 2;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .process-card {
         grid-column: span 1;
     }

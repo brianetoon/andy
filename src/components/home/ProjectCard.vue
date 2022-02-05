@@ -56,7 +56,7 @@ export default {
 }
 
 /* Media Queries */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
     .project-card .card-content {
         padding: 50px 70px;
     }
