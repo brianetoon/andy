@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
+@import 'styles/spacing.css';
+@import 'styles/grid.css';
+@import 'styles/helpers.css';
+
 /* Variables */
 :root {
     --primary: #00F3CB;
     --secondary:#FF63DF;
     --background: #222222;
+    --grey: #424242;
+    --grey-dk: #151515;
+
+    --font-primary: 'Atkinson Hyperlegible', sans-serif;
 }
 
 /* Reset */
@@ -20,7 +28,7 @@ li {
 /* Base Styles */
 * {
     box-sizing: border-box;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: var(--font-primary);
 }
 body {
     background: var(--background);
@@ -50,9 +58,13 @@ section .title {
     text-decoration: underline;
 }
 
+.container {
+    max-width: 1170px;
+}
+
 /* Nav Styles */
 header {
-    background: #151515;
+    background: var(--grey-dk);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -84,8 +96,20 @@ button {
     cursor: pointer;
 }
 .btn-solid {
-    color: #424242;
+    color: var(--grey);
     background: var(--primary);
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
 }
 
 /* Media Queries */

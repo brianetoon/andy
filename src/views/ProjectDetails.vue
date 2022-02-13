@@ -3,8 +3,12 @@
         <ProjectNav />
         <Banner :banner="project.banner" />
     </div>
+    <div class="row center">
+      <div class="col-10 col-md-12 col-xs-16 align-center top-3 bottom-3">
+        <p>test</p>
+      </div>
+    </div>
 </template>
-
 <script>
 import store from '@/store.js'
 import { computed } from '@vue/reactivity'
