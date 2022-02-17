@@ -89,7 +89,9 @@ export default {
     border-bottom-right-radius: 5px;
     transition: all 0.5s ease;
 }
-
+.button-text {
+    font-size: 17px;
+}
 .caret {
     width: 15px;
     margin-left: 10px;
@@ -119,5 +121,14 @@ export default {
 .project-links a:hover {
     background: linear-gradient(to right, #7949FC, #BE17FB);
     color: white;
+}
+
+@media screen and (min-width: 900px) {
+    .project-dropdown {
+        max-width: 240px;
+    }
+    .button-text {
+        font-size: 18px;
+    }
 }
 </style>

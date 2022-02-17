@@ -28,4 +28,10 @@ export default {
 .desktop-nav li {
     margin-left: 30px;
 }
+
+@media screen and (min-width: 900px) {
+    .desktop-nav li {
+        margin-left: 40px;
+    }
+}
 </style>

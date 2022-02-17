@@ -49,6 +49,7 @@ video {
     height: inherit;
     padding: 30px;
     position: relative;
+    margin: 0 auto;
 }
 #video-banner .content > * {
     margin-bottom: 20px;
@@ -84,6 +85,31 @@ video {
         transform: translateX(0);
         bottom: 15px;
         text-align: left;
+    }
+}
+@media screen and (min-width: 900px) {
+    #video-banner {
+        height: 520px;
+    }
+    #video-banner .content {
+        padding: 60px 50px;
+        max-width: 1120px;
+    }
+    #video-banner .sub-text {
+        left: 50px;
+        bottom: 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #video-banner {
+        height: 620px;
+    }
+    #video-banner .content {
+        padding: 120px 50px;
+    }
+    #video-banner .sub-text {
+        left: 50px;
+        bottom: 80px;
     }
 }
 </style>

@@ -27,4 +27,15 @@ export default {
 .project-dropdown {
     margin-left: 20px;
 }
+
+@media screen and (min-width: 640px) {
+    .project-dropdown {
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .project-dropdown {
+        margin-left: 40px;
+    }
+}
 </style>

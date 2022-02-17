@@ -32,7 +32,5 @@ export default {
 </script>
 
 <style>
-.shaq {
-    width: 200px;
-}
+
 </style>

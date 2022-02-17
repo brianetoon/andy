@@ -30,7 +30,7 @@ export default {
 }
 #my-process .intro {
     margin: 15px auto 30px;
-    max-width: 800px;
+    max-width: 640px;
 }
 .process-grid {
     display: grid;
@@ -47,6 +47,19 @@ export default {
     }
     .process-card .card-content {
         min-height: 241px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .process-grid {
+        gap: 40px
+    }
+    .process-card .card-content {
+        min-height: 248.5px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .process-grid {
+        gap: 50px;
     }
 }
 </style>

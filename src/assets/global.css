@@ -45,8 +45,22 @@ p {
     font-size: 17px;
     line-height: 29px;
 }
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+nav a:hover {
+    color: var(--primary);
+}
 section .title {
     text-align: center;
+}
+.logo {
+    font-size: 17px;
+    font-weight: 700;
 }
 .sub-text {
     font-size: 0.9em;
@@ -68,13 +82,13 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    padding: 0 30px;
     width: 100%;
     z-index: 999;
 }
 .nav-content {
     color: #ffffff;
     height: 80px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,10 +137,32 @@ button {
     h1 {
         font-size: 36px;
     }
-    p {
+    p, nav a, .logo {
         font-size: 18px;
     }
-    header {
+    .nav-content {
         padding: 0 40px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .nav-content {
+        padding: 0 50px;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
     }
 }

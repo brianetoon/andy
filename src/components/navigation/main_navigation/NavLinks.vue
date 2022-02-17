@@ -39,13 +39,5 @@ export default {
 </script>
 
 <style>
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-nav a:hover {
-    color: var(--primary);
-}
+
 </style>

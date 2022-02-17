@@ -37,4 +37,15 @@ export default {
     margin: 40px auto;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .home section:not(:nth-child(2)) {
+    padding: 0 50px;
+    margin: 90px auto 120px;
+    max-width: 1120px;
+  }
+  .home section:not(:nth-child(2)) > * {
+    margin: 50px auto;
+  }
+}
 </style>

@@ -62,4 +62,16 @@ export default {
     }
 }
 
+@media screen and (min-width: 900px) {
+    .project-card a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .project-card .card-content {
+        padding: 70px 90px;
+    }
+}
+
 </style>

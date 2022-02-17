@@ -53,4 +53,12 @@ export default {
 .deliver > * {
     color: #E6B2FD;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+    .process-card .card-content {
+        padding: 40px;
+    }
+}
+
 </style>

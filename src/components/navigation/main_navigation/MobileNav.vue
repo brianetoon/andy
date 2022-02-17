@@ -66,11 +66,6 @@ nav.dropdown {
     margin: 30px 0;
     transform-origin: left center;
 }
-.logo {
-    font-size: 16px;
-    font-weight: 700;
-    display: inline-block;
-}
 .hamburger, .close {
     width: 42px;
     cursor: pointer;
