@@ -1,9 +1,13 @@
 <template>
     <section class="project-banner" :class="banner.background">
-        <div class="banner-content">
+      <div class="container full-height">
+        <div class="row full-height v-center">
+          <div :class="banner.colWidth">
             <h1>{{ banner.title }}</h1>
             <p>{{ banner.text }}</p>
+          </div>
         </div>
+      </div>
     </section>
 </template>
 
@@ -14,6 +18,7 @@ export default {
 </script>
 
 <style>
+
 .project-banner {
     height: 420px;
     width: 100%;

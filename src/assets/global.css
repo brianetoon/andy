@@ -13,6 +13,8 @@
     --grey-dk: #151515;
 
     --font-primary: 'Atkinson Hyperlegible', sans-serif;
+
+    --spacing-lg: 90px;
 }
 
 /* Reset */
@@ -77,6 +79,8 @@ section .title {
 
 .container {
     max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Nav Styles */
@@ -130,7 +134,7 @@ header {
 
 @media (max-width: 1199px) {
     .container {
-        max-width: 970px;
+        width: 970px;
     }
 }
 

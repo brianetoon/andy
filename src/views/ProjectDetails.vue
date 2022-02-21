@@ -3,21 +3,20 @@
         <ProjectNav />
         <Banner :banner="project.banner" />
     </div>
-    <div class="row center">
-      <div class="col-10 col-md-12 col-xs-16 align-center top-3 bottom-3">
-        <p>test</p>
-      </div>
-    </div>
+    <main class="project-details">
+      <FinalProduct :finalProduct="project.finalProduct"/>
+    </main>
 </template>
 <script>
 import store from '@/store.js'
 import { computed } from '@vue/reactivity'
 import ProjectNav from '@/components/navigation/project_navigation/ProjectNav.vue'
 import Banner from '@/components/project_details/Banner.vue'
+import FinalProduct from "@/components/project_details/FinalProduct";
 
 export default {
     props: ['slug'],
-    components: { ProjectNav, Banner },
+    components: {FinalProduct, ProjectNav, Banner },
     setup(props) {
 
         const project = computed(() => {

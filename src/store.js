@@ -8,9 +8,14 @@ export default {
             gradient: "lamden",
             testImg: "shaq.png",
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
+            finalProduct: {
+                img: '/final-products/lamden.png',
+                alt: 'who knows'
+            },
             banner: {
+                colWidth: 'col-8',
                 title: "Lamden - Blockchain",
-                text: "In 2018 I started following Lamden. What began as curiousity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
+                text: "In 2018 I started following Lamden. What began as curiosity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
                 background: 'lamden-banner'
             }
         },
