@@ -83,12 +83,18 @@ export default {
     process_intro: "My job is to bring your vision to light. This starts with an understanding of your wants and needs. From there, I design and prototype to match the goal of the project, deliver a high-quality and user tested product, and continually learn from the data to ensure a positive result.",
     about: [
         {
-            title: "I’m UX Andy",
+            title: "I'm UX Andy",
             text: "My passion for creating an original and inspired user experience has led to work with a variety of brands. Through consulting I help businesses of all sizes turn their ideas into intuitive, customer-first designs. I am relentless in the goal of adding value to any product."
         },
         {
             title: "What I can do for you",
-            text: "Whether you’re ready to get that great idea off the ground or want to build on an established product, I can help get you there. My sweet spot is turning complex problems into user first, straightforward designs that work for both you and your customers."
+            text: "Whether you're ready to get that great idea off the ground or want to build on an established product, I can help get you there. My sweet spot is turning complex problems into user first, straightforward designs that work for both you and your customers."
         }
+    ],
+    social_links: [
+        { name: 'Telegram', icon: 'telegram.svg', href: 'https://t.me/uxandy' },
+        { name: 'LinkedIn', icon: 'linkedin.svg', href: 'https://www.linkedin.com/in/andyphil' },
+        { name: 'Discord', icon: 'discord.svg', href: 'https://discordapp.com/users/352629071370256384'},
+        { name: 'Twitter', icon: 'twitter.svg', href: 'https://twitter.com/uxandyphil' }
     ]
 }

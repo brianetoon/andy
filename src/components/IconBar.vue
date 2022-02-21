@@ -9,15 +9,11 @@
 </template>
 
 <script>
+import store from '@/store.js'
 import { ref } from '@vue/reactivity'
 export default {
     setup() {
-        const links = ref([
-            { icon: 'telegram.svg', href: '#'},
-            { icon: 'linkedin.svg', href: '#'},
-            { icon: 'discord.svg', href: '#'},
-            { icon: 'twitter.svg', href: '#'},
-        ])
+        const links = ref(store.social_links)
 
         return { links }
     }

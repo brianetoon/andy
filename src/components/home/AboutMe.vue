@@ -2,7 +2,7 @@
     <section id="about">
         <div class="about-border">
             <div class="about-content">
-                <img src="@/assets/images/shaq.png" class="shaq" alt="shaq">
+                <img src="@/assets/images/andy.png" class="shaq" alt="shaq">
                 <div v-for="(para, i) in about" :key="i" class="about-text">
                     <h2>{{ para.title }}</h2>
                     <p>{{ para.text }}</p>

@@ -53,7 +53,7 @@ nav a {
     cursor: pointer;
 }
 nav a:hover {
-    color: var(--primary);
+    color: var(--secondary);
 }
 section .title {
     text-align: center;
@@ -70,6 +70,9 @@ section .title {
 .link {
     color: var(--primary);
     text-decoration: underline;
+}
+.link:hover {
+    color: var(--secondary);
 }
 
 .container {
@@ -95,23 +98,34 @@ header {
     width: 100%;
 }
 
-/* Buttons & Icons */
-button {
+/* Buttons */
+.btn {
     display: block;
     width: 100%;
     max-width: 300px;
     padding: 12px 0;
-    border: 2px solid var(--primary);
     border-radius: 5px;
-    background: none;
-    color: var(--primary);
+    border: 2px solid var(--primary);
     font-size: 17px;
+    text-align: center;
     font-weight: 700;
     cursor: pointer;
 }
 .btn-solid {
-    color: var(--grey);
+    color: var(--background);
     background: var(--primary);
+}
+.btn-solid:hover {
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.btn-outline {
+    background: none;
+    color: var(--primary);
+}
+.btn-outline:hover {
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
 }
 
 @media (max-width: 1199px) {
