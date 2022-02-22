@@ -1,12 +1,16 @@
 <template>
     <div class="project-card" :class="project.gradient">
-        <div class="card-content">
-            <h2>{{ project.title }}</h2>
-            <p>{{ project.lead }}</p>
-            <router-link :to="{ name: 'ProjectDetails', params: { slug: project.slug } }">
-                Learn More<img src="@/assets/icons/learn_more.svg" class="learn-icon">
-            </router-link>
-        </div>
+        <router-link :to="{ name: 'ProjectDetails', params: { slug: project.slug } }">
+
+            <div class="card-content">
+                <h2>{{ project.title }}</h2>
+                <p>{{ project.lead }}</p>
+                <span class="learn-more">
+                    Learn More<img src="@/assets/icons/learn_more.svg" class="learn-icon">
+                </span>
+            </div>
+
+        </router-link>
     </div>
 </template>
 
@@ -24,12 +28,22 @@ export default {
 .project-card .card-content {
     background: var(--background);
     padding: 30px;
+    transition: background 0.4s;
 }
 .project-card p {
     margin: 15px 0 25px;
     max-width: 500px;
 }
 .project-card a {
+    color: white;
+}
+.project-card a:hover .card-content {
+    background: none;
+}
+.project-card a:hover .learn-icon {
+    padding-left: 12px;
+}
+.project-card .learn-more {
     font-weight: 700;
     font-size: 17px;
     text-decoration: underline;
@@ -39,6 +53,7 @@ export default {
 }
 .learn-icon {
     padding-left: 6px;
+    transition: 0.4s;
 }
 
 /* Dynamic Classes */

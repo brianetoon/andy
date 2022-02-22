@@ -9,9 +9,10 @@
     --primary: #00F3CB;
     --secondary: #FF63DF;
     --background: #222222;
-    /* --background: black; */
     --grey: #424242;
     --grey-dk: #151515;
+    
+    --purple-gradient: linear-gradient(to right, #7949FC, #BE17FB);
 
     --font-primary: 'Atkinson Hyperlegible', sans-serif;
 
@@ -53,7 +54,7 @@ p {
 }
 
 nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
@@ -118,6 +119,7 @@ header {
     text-align: center;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.4s;
 }
 .btn-solid {
     color: var(--background);

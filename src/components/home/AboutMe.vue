@@ -38,7 +38,7 @@ export default {
     border-radius: 7px;
 }
 .andy {
-    max-width: 200px;
+    width: 200px;
     display: block;
     border-radius: 200px;
     margin: 25px auto;

@@ -15,9 +15,7 @@
         <p class="sub-text">
             UX Andy 2022 
             <a href="https://www.figma.com/file/RmTrMXkzWaTNWjvyc6i485/Web3-Projects?node-id=3226%3A13375" 
-                class="link" target="_blank">
-                Open Source
-            </a>.
+                class="link" target="_blank">Open Source</a>.
         </p>
     </footer>
 </template>
@@ -59,7 +57,7 @@ footer p {
     color: white;
 }
 footer .btn {
-    margin: 30px auto 25px;
+    margin: 30px auto;
 }
 footer .sub-text {
     margin-top: 40px;

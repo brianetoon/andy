@@ -1,12 +1,11 @@
 <template>
-    <div id="project-details">
-        <ProjectNav />
-        <Banner :banner="project.banner" />
-    </div>
+    <ProjectNav />
+    <Banner :banner="project.banner" />
     <main class="project-details">
       <FinalProduct :finalProduct="project.finalProduct"/>
     </main>
 </template>
+
 <script>
 import store from '@/store.js'
 import { computed } from '@vue/reactivity'
@@ -16,7 +15,7 @@ import FinalProduct from "@/components/project_details/FinalProduct";
 
 export default {
     props: ['slug'],
-    components: {FinalProduct, ProjectNav, Banner },
+    components: { FinalProduct, ProjectNav, Banner },
     setup(props) {
 
         const project = computed(() => {

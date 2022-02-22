@@ -67,7 +67,7 @@ export default {
     position: relative;
 }
 .dropdown-button {
-    background: linear-gradient(to right, #7949FC, #BE17FB);
+    background: var(--purple-gradient);
     padding: 2px;
     border-radius: 5px;
     cursor: pointer;
@@ -119,7 +119,7 @@ export default {
     display: inline-block;
 }
 .project-links a:hover {
-    background: linear-gradient(to right, #7949FC, #BE17FB);
+    background: var(--purple-gradient);
     color: white;
 }
 
