@@ -11,7 +11,8 @@
             about all the work that went into the process.
           </p>
           <!-- gradient button to go here -->
-          <img :src="finalProduct.img" :alt="finalProduct.alt">
+          <!-- <img :src="finalProduct.img" :alt="finalProduct.alt"> -->
+           <img :src="require(`@/assets/images${finalProduct.img}`)" :alt="finalProduct.alt">
         </div>
       </div>
     </div>
