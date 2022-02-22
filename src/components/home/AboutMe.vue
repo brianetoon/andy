@@ -2,7 +2,7 @@
     <section id="about">
         <div class="about-border">
             <div class="about-content">
-                <img src="@/assets/images/andy.png" class="shaq" alt="shaq">
+                <img src="@/assets/images/andy.png" class="andy" alt="andy">
                 <div v-for="(para, i) in about" :key="i" class="about-text">
                     <h2>{{ para.title }}</h2>
                     <p>{{ para.text }}</p>
@@ -37,7 +37,7 @@ export default {
     padding: 30px;
     border-radius: 7px;
 }
-.shaq {
+.andy {
     max-width: 200px;
     display: block;
     border-radius: 200px;
@@ -49,6 +49,9 @@ export default {
 .about-text h2 {
     margin-bottom: 15px;
 }
+.about-text:last-child h2 {
+    font-size: 1.4em;
+}
 
 @media screen and (min-width: 900px) {
     .about-content {
@@ -58,7 +61,10 @@ export default {
     .about-text {
         max-width: 60%;
     }
-    .shaq {
+    .about-text:last-child h2 {
+       font-size: 1.5em;
+    }
+    .andy {
         position: absolute;
         right: 10%;
         top: 45%;
@@ -76,7 +82,10 @@ export default {
     .about-text {
         max-width: 65%;
     }
-    .shaq {
+    .about-text:last-child h2 {
+       font-size: 1.7em;
+    }
+    .andy {
         max-width: 250px;
     }
 }

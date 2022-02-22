@@ -12,7 +12,13 @@
         </p>
         <a href="mailto: uxandyphil@gmail.com" class="btn btn-solid">Email Me</a>
         <IconBar />
-        <p class="sub-text">UX Andy 2022 <a href="#" class="link">Open Source</a>.</p>
+        <p class="sub-text">
+            UX Andy 2022 
+            <a href="https://www.figma.com/file/RmTrMXkzWaTNWjvyc6i485/Web3-Projects?node-id=3226%3A13375" 
+                class="link" target="_blank">
+                Open Source
+            </a>.
+        </p>
     </footer>
 </template>
 

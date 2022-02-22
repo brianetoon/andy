@@ -7,8 +7,9 @@
 /* Variables */
 :root {
     --primary: #00F3CB;
-    --secondary:#FF63DF;
+    --secondary: #FF63DF;
     --background: #222222;
+    /* --background: black; */
     --grey: #424242;
     --grey-dk: #151515;
 
@@ -43,6 +44,9 @@ h1 {
 h2 {
     font-size: 28px;
 }
+h3 {
+    font-size: 24px;
+}
 p {
     font-size: 17px;
     line-height: 29px;
@@ -51,7 +55,7 @@ p {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
 }
 nav a:hover {
@@ -149,6 +153,9 @@ header {
     h1 { 
         font-size: 34px;
     }
+    nav a {
+        font-size: 17px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -170,6 +177,9 @@ header {
     h2 {
         font-size: 32px;
     }
+    h3 {
+        font-size: 26px;
+    }
     .nav-content {
         padding: 0 50px;
         max-width: 1120px;
@@ -182,5 +192,8 @@ header {
     }
     h2 {
         font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
     }
 }

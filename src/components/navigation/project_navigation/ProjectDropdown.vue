@@ -90,7 +90,7 @@ export default {
     transition: all 0.5s ease;
 }
 .button-text {
-    font-size: 17px;
+    font-size: 16px;
 }
 .caret {
     width: 15px;
@@ -121,6 +121,12 @@ export default {
 .project-links a:hover {
     background: linear-gradient(to right, #7949FC, #BE17FB);
     color: white;
+}
+
+@media screen and (min-width: 640px) {
+    .button-text {
+        font-size: 17px;
+    }
 }
 
 @media screen and (min-width: 900px) {

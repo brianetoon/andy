@@ -1,15 +1,14 @@
 <template>
     <section id="video-banner">
         <video autoplay muted loop>
-            <source src="@/assets/videos/astronaut.webm" type="video/webm">
-            <!-- <source src="@/assets/videos/blue_globe.mp4" type="video/webm"> -->
+            <source src="@/assets/videos/globe.mp4" type="video/webm">
             Your browser does no support HTML5 video
         </video>
 
         <div class="overlay">
             <div class="content">
                 <h1>Designing for Web3</h1>
-                <p>When did design get so serious? <br> Let’s create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.</p>
+                <p>When did design get so serious? <br> Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.</p>
                 <a href="mailto: uxandyphil@gmail.com" class="btn btn-outline">
                     Email Me
                 </a>
@@ -32,21 +31,25 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #video-banner {
     width: 100%;
     position: relative;
+    display: block;
     height: 420px;
     overflow: hidden;
     text-align: center;
+
 }
 video {
-    width: 100%;
+    width: auto;
+    height: 100%;
     z-index: -1;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+
 }
 .overlay {
     height: inherit;
@@ -75,6 +78,14 @@ video {
     transform: translateX(-50%)
 }
 
+
+@media screen and (min-width: 740px) {
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #video-banner .content {
         text-align: left;
@@ -96,7 +107,7 @@ video {
 }
 @media screen and (min-width: 900px) {
     #video-banner {
-        height: 520px;
+        height: 500px;
     }
     #video-banner .content {
         padding: 60px 50px;
@@ -104,7 +115,7 @@ video {
     }
     #video-banner .sub-text {
         left: 50px;
-        bottom: 30px;
+        bottom: 40px;
     }
 }
 @media screen and (min-width: 1200px) {
