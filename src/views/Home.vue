@@ -1,8 +1,7 @@
 <template>
   <main class="home">
     <Navbar />
-    <!-- <VideoBanner /> -->
-    <NewVideoBanner />
+    <VideoBanner />
     <FeaturedProjects />
     <MyProcess />
     <AboutMe />
@@ -12,13 +11,12 @@
 <script>
 import Navbar from '@/components/navigation/main_navigation/Navbar.vue'
 import VideoBanner from '@/components/home/VideoBanner.vue'
-import NewVideoBanner from '@/components/home/NewVideoBanner.vue'
 import FeaturedProjects from '@/components/home/FeaturedProjects.vue'
 import MyProcess from '@/components/home/MyProcess.vue'
 import AboutMe from '@/components/home/AboutMe.vue'
 
 export default {
-  components: { Navbar, VideoBanner, NewVideoBanner, FeaturedProjects, MyProcess, AboutMe }
+  components: { Navbar, VideoBanner, FeaturedProjects, MyProcess, AboutMe }
 }
 </script>
 
