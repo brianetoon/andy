@@ -8,7 +8,10 @@
         <div class="overlay">
             <div class="content">
                 <h1>Designing for Web3</h1>
-                <p class="lead">When did design get so serious? <br> Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.</p>
+                <p class="lead">
+                    When did design get so serious? <br>
+                    Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.
+                </p>
                 <a href="mailto: uxandyphil@gmail.com" class="btn btn-outline btn-border-primary">
                     Email Me
                 </a>

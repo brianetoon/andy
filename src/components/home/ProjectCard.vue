@@ -3,7 +3,7 @@
         <router-link :to="{ name: 'ProjectDetails', params: { slug: project.slug } }">
 
             <div class="card-content">
-                <h2>{{ project.title }}</h2>
+                <h3>{{ project.title }}</h3>
                 <p>{{ project.lead }}</p>
                 <span class="learn-more">
                     Learn More<img src="@/assets/icons/learn_more.svg" class="learn-icon">
@@ -24,11 +24,12 @@ export default {
 .project-card {
     margin: 30px auto;
     padding: 5px;
+    border-radius: 4px;
 }
 .project-card .card-content {
     background: var(--background);
     padding: 30px;
-    transition: background 0.4s;
+    transition: background 0.35s;
 }
 .project-card p {
     margin: 15px 0 25px;
@@ -41,19 +42,19 @@ export default {
     background: none;
 }
 .project-card a:hover .learn-icon {
-    padding-left: 12px;
+    margin-left: 14px;
 }
 .project-card .learn-more {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: underline;
     display: flex;
     align-items: center;
     color: white;
 }
 .learn-icon {
-    padding-left: 6px;
-    transition: 0.4s;
+    margin-left: 8px;
+    transition: 0.35s;
 }
 
 /* Dynamic Classes */
@@ -78,8 +79,8 @@ export default {
 }
 
 @media screen and (min-width: 900px) {
-    .project-card a {
-        font-size: 18px;
+    .project-card .learn-more {
+        font-size: 20px;
     }
 }
 
@@ -87,6 +88,11 @@ export default {
     .project-card .card-content {
         padding: 70px 90px;
     }
+    .project-card .learn-more {
+        font-size: 22px;
+    }
+    .learn-icon {
+        width: 26px;
+    }
 }
-
 </style>

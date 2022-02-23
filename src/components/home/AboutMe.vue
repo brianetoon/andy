@@ -50,7 +50,13 @@ export default {
     margin-bottom: 15px;
 }
 .about-text:last-child h2 {
-    font-size: 1.4em;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 640px) {
+    .about-text:last-child h2 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -62,7 +68,7 @@ export default {
         max-width: 60%;
     }
     .about-text:last-child h2 {
-       font-size: 1.5em;
+       font-size: 30px;
     }
     .andy {
         position: absolute;
@@ -83,7 +89,7 @@ export default {
         max-width: 65%;
     }
     .about-text:last-child h2 {
-       font-size: 1.7em;
+       font-size: 38px;
     }
     .andy {
         max-width: 250px;

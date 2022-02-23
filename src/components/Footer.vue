@@ -47,6 +47,7 @@ footer h2 {
 footer p {
     max-width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
 .comma:not(:last-child):after {
     content: ", ";

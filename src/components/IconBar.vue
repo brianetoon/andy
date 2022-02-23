@@ -2,7 +2,6 @@
     <ul class="icon-bar">
         <li v-for="(link, i) in links" :key="i">
             <a :href="link.href" target="_blank">
-                <!-- <img :src="require(`@/assets/icons/${link.icon}`)"> -->
                 <SocialIcon :name="link.name" />
             </a>
         </li>

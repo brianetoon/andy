@@ -1,7 +1,7 @@
 <template>
     <div class="process-card" :class="item.gradient">
         <div class="card-content">
-            <h2>{{ item.title }}</h2>
+            <h3>{{ item.title }}</h3>
             <p>{{ item.text }}</p>
         </div>
     </div>
