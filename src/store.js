@@ -10,7 +10,13 @@ export default {
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
             finalProduct: {
                 img: '/final-products/lamden.png',
-                alt: 'who knows'
+                alt: 'Lamden',
+                imageClass: 'lamden',
+                btnClasses: 'btn btn-gradient btn-gradient-purple'
+            },
+            problem: {
+                intro: 'How might we make a crypto wallet more convenient for everyone so that we become the only crypto wallet you ever need to use to increase the adoption of Lamden.',
+                deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'Prototypes', 'Personas', 'Interviews', 'Flows', 'User Testing', 'Scenarios', 'High Fidelity Designs']
             },
             banner: {
                 colWidth: 'col-8',

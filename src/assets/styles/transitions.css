@@ -1,0 +1,14 @@
+.transition {
+    transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+}
+
+.transition-default {
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.transition-fast {
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}

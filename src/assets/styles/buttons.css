@@ -1,0 +1,86 @@
+/* Buttons */
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn-small {
+    max-width: 215px;
+}
+.btn-border-primary {
+    border: 2px solid var(--primary);
+}
+.btn-solid {
+    color: var(--background);
+    background: var(--primary);
+}
+.btn-solid:hover {
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.btn-outline {
+    background: none;
+    color: var(--primary);
+}
+.btn-outline:hover {
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+.btn-gradient {
+    position: relative;
+    z-index: 1;
+    color: var(--white);
+    border-radius: var(--border-radius-default);
+}
+
+.btn-gradient:before {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: -100;
+    border-radius: var(--border-radius-default);
+}
+
+.btn-gradient:hover:before {
+    opacity: 1;
+}
+
+.btn-gradient-purple {
+    border-color: transparent;
+    background-color: var(--gr-purple-dk);
+    background: linear-gradient(to right, var(--gr-purple-dk) 0%, var(--gr-purple-lt) 100%);
+    transition: all 0.3s linear;
+    transition-delay: 0s;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition-delay: 0s;
+    position: relative;
+    z-index: 1;
+}
+.btn-gradient-purple:before {
+    background-color: var(--gr-purple-dk-hover);
+    background: linear-gradient(to right, var(--gr-purple-dk-hover) 0%, var(--gr-purple-lt-hover) 100%);
+    transition: all 0.3s linear;
+    transition-delay: 0s;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition-delay: 0s;
+}
+.btn-gradient-purple:hover:before {
+    opacity: 1;
+}
+
+
+
+

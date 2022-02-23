@@ -3,6 +3,7 @@
 @import 'styles/spacing.css';
 @import 'styles/grid.css';
 @import 'styles/helpers.css';
+@import 'styles/buttons.css';
 
 /* Variables */
 :root {
@@ -10,13 +11,22 @@
     --secondary: #FF63DF;
     --background: #222222;
     --grey: #424242;
+    --white: #fff;
     --grey-dk: #151515;
-    
-    --purple-gradient: linear-gradient(to right, #7949FC, #BE17FB);
+
+    --gr-purple-dk: #7949FC;
+    --gr-purple-lt: #be17fb;
+    --gr-purple-dk-hover: #632bfc;
+    --gr-purple-lt-hover: #b004ef;
+
+
+    --purple-gradient: linear-gradient(to right, var(--gr-purple-dk), var(--gr-purple-lt));
 
     --font-primary: 'Atkinson Hyperlegible', sans-serif;
 
     --spacing-lg: 90px;
+
+    --border-radius-default: 4px;
 }
 
 /* Reset */
@@ -88,6 +98,14 @@ section .title {
     margin-right: auto;
 }
 
+.bg-grey {
+    background: var(--grey);
+}
+
+span.bold {
+    font-weight: 700;
+}
+
 /* Nav Styles */
 header {
     background: var(--grey-dk);
@@ -107,36 +125,7 @@ header {
     width: 100%;
 }
 
-/* Buttons */
-.btn {
-    display: block;
-    width: 100%;
-    max-width: 300px;
-    padding: 12px 0;
-    border-radius: 5px;
-    border: 2px solid var(--primary);
-    font-size: 17px;
-    text-align: center;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.4s;
-}
-.btn-solid {
-    color: var(--background);
-    background: var(--primary);
-}
-.btn-solid:hover {
-    background: var(--secondary);
-    border: 2px solid var(--secondary);
-}
-.btn-outline {
-    background: none;
-    color: var(--primary);
-}
-.btn-outline:hover {
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
-}
+
 
 @media (max-width: 1199px) {
     .container {
