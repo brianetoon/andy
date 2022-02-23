@@ -19,6 +19,7 @@
 }
 .btn-solid {
     color: var(--background);
+    border: 2px solid var(--primary);
     background: var(--primary);
 }
 .btn-solid:hover {

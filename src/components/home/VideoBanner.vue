@@ -8,16 +8,11 @@
         <div class="overlay">
             <div class="content">
                 <h1>Designing for Web3</h1>
-                <p>When did design get so serious? <br> Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.</p>
+                <p class="lead">When did design get so serious? <br> Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.</p>
                 <a href="mailto: uxandyphil@gmail.com" class="btn btn-outline btn-border-primary">
                     Email Me
                 </a>
                 <IconBar />
-                <p class="sub-text">
-                    Curious about this background image?<br>It's an NFT I purchased for fun 
-                    <a href="https://opensea.io/assets/0xd305e3885a9ac0d77bfd8b6c954e357b04b3623d/156" 
-                        class="link" target="_blank">here</a>.
-                </p>
             </div>
         </div>
 
@@ -58,24 +53,16 @@ video {
 #video-banner .content {
     height: inherit;
     padding: 30px;
-    position: relative;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #video-banner .content > * {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .highlight {
     color: var(--primary);
-}
-#video-banner .btn {
-    margin: 40px auto 20px;
-}
-#video-banner .sub-text {
-    white-space: nowrap;
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%)
 }
 
 
@@ -92,17 +79,11 @@ video {
         padding: 30px 40px;
     }
     #video-banner .btn {
-        margin: 40px 0 20px;
+        margin: 0 0 30px;
         max-width: 200px;
     }
     #video-banner .icon-bar {
         margin: 0 10px;
-    }
-    #video-banner .sub-text {
-        left: 40px;
-        transform: translateX(0);
-        bottom: 15px;
-        text-align: left;
     }
 }
 @media screen and (min-width: 900px) {
@@ -113,9 +94,16 @@ video {
         padding: 60px 50px;
         max-width: 1120px;
     }
-    #video-banner .sub-text {
-        left: 50px;
-        bottom: 40px;
+    #video-banner .content > * {
+        margin-bottom: 35px;
+    }
+    #video-banner .btn {
+        margin-bottom: 25px;
+        font-size: 19px;
+        max-width: 220px;
+    }
+    .lead {
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 1200px) {

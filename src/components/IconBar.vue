@@ -45,4 +45,12 @@ export default {
 .icon-bar object {
     z-index: -1;
 }
+@media screen and (min-width: 900px) {
+    .icon-bar {
+        max-width: 200px;
+    }
+    .icon-bar img {
+        width: 33px;
+    }
+}
 </style>
