@@ -126,7 +126,6 @@ header {
 }
 
 
-
 @media (max-width: 1199px) {
     .container {
         width: 970px;
@@ -171,8 +170,11 @@ header {
     h2 {
         font-size: 34px;
     }
+    p {
+        font-size: 19px;
+    }
     nav a, .logo {
-        font-size: 20px;
+        font-size: 19px;
     }
     .nav-content {
         padding: 0 50px;
@@ -189,5 +191,8 @@ header {
     }
     h3 {
         font-size: 30px;
+    }
+    nav a, .logo {
+        font-size: 20px;
     }
 }

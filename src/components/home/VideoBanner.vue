@@ -34,7 +34,6 @@ export default {
     height: 420px;
     overflow: hidden;
     text-align: center;
-
 }
 video {
     width: auto;
@@ -64,6 +63,9 @@ video {
 .highlight {
     color: var(--primary);
 }
+.lead {
+    font-size: 18px;
+}
 
 
 @media screen and (min-width: 740px) {
@@ -80,7 +82,7 @@ video {
     }
     #video-banner .btn {
         margin: 0 0 30px;
-        max-width: 200px;
+        max-width: 220px;
     }
     #video-banner .icon-bar {
         margin: 0 10px;
@@ -100,7 +102,6 @@ video {
     #video-banner .btn {
         margin-bottom: 25px;
         font-size: 19px;
-        max-width: 220px;
     }
     .lead {
         font-size: 20px;

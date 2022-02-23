@@ -134,6 +134,12 @@ export default {
         max-width: 240px;
     }
     .button-text {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .button-text {
         font-size: 20px;
     }
 }
