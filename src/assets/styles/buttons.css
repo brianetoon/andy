@@ -9,7 +9,6 @@
     text-align: center;
     font-weight: 700;
     cursor: pointer;
-    transition: 0.4s;
 }
 .btn-small {
     max-width: 215px;

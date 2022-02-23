@@ -104,6 +104,7 @@ video {
     }
     .lead {
         font-size: 20px;
+        line-height: 32px;
     }
 }
 @media screen and (min-width: 1200px) {

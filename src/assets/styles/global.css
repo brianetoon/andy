@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
-@import 'styles/spacing.css';
-@import 'styles/grid.css';
-@import 'styles/helpers.css';
-@import 'styles/buttons.css';
+@import './spacing.css';
+@import './grid.css';
+@import './helpers.css';
+@import './buttons.css';
 
 /* Variables */
 :root {
@@ -170,6 +170,9 @@ header {
     }
     h2 {
         font-size: 34px;
+    }
+    nav a, .logo {
+        font-size: 20px;
     }
     .nav-content {
         padding: 0 50px;

@@ -134,7 +134,7 @@ export default {
         max-width: 240px;
     }
     .button-text {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 </style>
