@@ -1,6 +1,5 @@
 <template>
   <main class="home">
-    <Navbar />
     <VideoBanner />
     <FeaturedProjects />
     <MyProcess />
@@ -9,7 +8,7 @@
 </template>
 
 <script>
-import Navbar from '@/components/navigation/main_navigation/Navbar.vue'
+import MainNav from '@/components/navigation/main_navigation/MainNav.vue'
 import VideoBanner from '@/components/home/VideoBanner.vue'
 import FeaturedProjects from '@/components/home/FeaturedProjects.vue'
 import MyProcess from '@/components/home/MyProcess.vue'
@@ -17,7 +16,7 @@ import AboutMe from '@/components/home/AboutMe.vue'
 
 export default {
   components: { 
-    Navbar, 
+    MainNav, 
     VideoBanner, 
     FeaturedProjects, 
     MyProcess, 
@@ -27,30 +26,30 @@ export default {
 </script>
 
 <style>
-.home section:not(:nth-child(2)) {
+.home section:not(:nth-child(1)) {
   padding: 0 30px;
   margin: 90px 0;
 }
-.home section:not(:nth-child(2)) > * {
+.home section:not(:nth-child(1)) > * {
   margin: 30px auto;
 }
 
 @media screen and (min-width: 768px) {
-  .home section:not(:nth-child(2)) {
+  .home section:not(:nth-child(1)) {
     padding: 0 40px
   }
-  .home section:not(:nth-child(2)) > * {
+  .home section:not(:nth-child(1)) > * {
     margin: 40px auto;
   }
 }
 
 @media screen and (min-width: 900px) {
-  .home section:not(:nth-child(2)) {
+  .home section:not(:nth-child(1)) {
     padding: 0 50px;
     margin: var(--spacing-lg) auto 120px;
     max-width: 1120px;
   }
-  .home section:not(:nth-child(2)) > * {
+  .home section:not(:nth-child(1)) > * {
     margin: 50px auto;
   }
 }

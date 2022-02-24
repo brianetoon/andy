@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <ProjectNav />
     <main class="project-details">
       <Banner :banner="project.banner" />
       <FinalProduct :finalProduct="project.finalProduct"/>
@@ -12,7 +10,6 @@
       <Usability></Usability>
       <Launch :launch="project.launch" :slug="project.slug"/>
     </main>
-  </div>
 </template>
 
 <script>
