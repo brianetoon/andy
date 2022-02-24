@@ -13,7 +13,7 @@
         <a href="mailto: uxandyphil@gmail.com" class="btn btn-solid">Email Me</a>
         <IconBar />
         <p class="sub-text">
-            UX Andy 2022 
+            UX Andy {{ year }}
             <a href="https://www.figma.com/file/RmTrMXkzWaTNWjvyc6i485/Web3-Projects?node-id=3226%3A13375" 
                 class="link" target="_blank">Open Source</a>.
         </p>
@@ -29,8 +29,8 @@ export default {
     components: { IconBar },
     setup() {
         const links = ref(store.social_links)
-
-        return { links }
+        const year = new Date().getFullYear();
+        return { links, year }
     }
 }
 </script>

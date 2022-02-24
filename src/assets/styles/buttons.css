@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 .btn-small {
-    max-width: 215px;
+    max-width: 228px;
 }
 .btn-border-primary {
     border: 2px solid var(--primary);

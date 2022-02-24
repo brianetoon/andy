@@ -1,5 +1,5 @@
 <template>
-  <section class="problem bg-grey">
+  <section class="problem bg-grey padding-default">
     <div class="container">
       <div class="row center">
         <div class="col-9">
@@ -28,9 +28,6 @@ export default {
 </script>
 
 <style>
-  .problem {
-    padding: var(--spacing-lg) 0;
-  }
   ul.deliverables {
     padding-left: 16px;
   }
@@ -50,5 +47,4 @@ export default {
     top: 7px;
     left: -12px;
   }
-
 </style>

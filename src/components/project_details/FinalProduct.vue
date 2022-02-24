@@ -1,5 +1,5 @@
 <template>
-  <section class="final-product">
+  <section class="final-product padding-default">
     <div class="container">
       <div class="row center">
         <div class="col-9">
@@ -30,9 +30,6 @@ export default {
 </script>
 
 <style>
-  .final-product {
-    padding: var(--spacing-lg) 0;
-  }
   .image-wrap {
     padding: 4px;
   }

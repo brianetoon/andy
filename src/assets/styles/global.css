@@ -27,6 +27,8 @@
     --spacing-lg: 90px;
 
     --border-radius-default: 4px;
+
+    --image-row-spacing: 12px;
 }
 
 /* Reset */
@@ -125,6 +127,18 @@ header {
     width: 100%;
 }
 
+section.padding-default {
+    padding: var(--spacing-lg) 0;
+}
+
+a.text-only {
+    color: inherit;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 
 @media (max-width: 1199px) {
     .container {
@@ -135,6 +149,10 @@ header {
 @media (max-width: 991px) {
     .container {
         width: 100%;
+    }
+    .container > .row {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 

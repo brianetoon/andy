@@ -8,6 +8,12 @@ export default {
             gradient: "lamden",
             testImg: "shaq.png",
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
+            banner: {
+                colWidth: 'col-9',
+                title: "Lamden - Blockchain",
+                text: "In 2018 I started following Lamden. What began as curiosity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
+                background: 'lamden-banner'
+            },
             finalProduct: {
                 img: '/final-products/lamden.png',
                 alt: 'Lamden',
@@ -18,11 +24,63 @@ export default {
                 intro: 'How might we make a crypto wallet more convenient for everyone so that we become the only crypto wallet you ever need to use to increase the adoption of Lamden.',
                 deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'Prototypes', 'Personas', 'Interviews', 'Flows', 'User Testing', 'Scenarios', 'High Fidelity Designs']
             },
-            banner: {
-                colWidth: 'col-8',
-                title: "Lamden - Blockchain",
-                text: "In 2018 I started following Lamden. What began as curiosity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
-                background: 'lamden-banner'
+            personas: {
+                images: [
+                    {
+                        img: '/final-products/personas/bob.png',
+                        alt: 'Lamden - Bob'
+                    },
+                    {
+                        img: '/final-products/personas/ace.png',
+                        alt: 'Lamden - Ace'
+                    },
+                    {
+                        img: '/final-products/personas/max.png',
+                        alt: 'Lamden - Max'
+                    },
+                ]
+            },
+            scenarios: {
+                images: [
+                    {
+                        img: '/final-products/scenarios/scenario-bob.png',
+                        alt: 'Lamden - User Scenarios'
+                    },
+                    {
+                        img: '/final-products/scenarios/scenario-ace.png',
+                        alt: 'Lamden - User Scenarios'
+                    },
+                    {
+                        img: '/final-products/scenarios/scenario-max.png',
+                        alt: 'Lamden - User Scenarios'
+                    },
+                ]
+            },
+            flows: {
+                img: '/final-products/flows/flows.png',
+                alt: 'Lamden - User Flow'
+            },
+            wireframes: {
+                images: [
+                    {
+                        img: '/final-products/wireframes/onboarding.png',
+                        alt: 'Lamden - Onboarding'
+                    },
+                    {
+                        img: '/final-products/wireframes/prototype.png',
+                        alt: 'Lamden - Prototype'
+                    }
+                ]
+            },
+            launch: {
+                title: 'Visual Design & Launch',
+                description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
+                topCol: 'col-9',
+                img: '/final-products/lamden.png',
+                alt: 'Lamden',
+                imageClass: 'lamden',
+                btnClasses: 'btn btn-gradient btn-gradient-purple',
+                bgGrey: true
             }
         },
         {
