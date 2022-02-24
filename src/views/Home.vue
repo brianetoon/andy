@@ -16,7 +16,13 @@ import MyProcess from '@/components/home/MyProcess.vue'
 import AboutMe from '@/components/home/AboutMe.vue'
 
 export default {
-  components: { Navbar, VideoBanner, FeaturedProjects, MyProcess, AboutMe }
+  components: { 
+    Navbar, 
+    VideoBanner, 
+    FeaturedProjects, 
+    MyProcess, 
+    AboutMe 
+  }
 }
 </script>
 
