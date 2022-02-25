@@ -6,7 +6,6 @@ export default {
             link_name: "Lamden",
             slug: "lamden",
             gradient: "lamden",
-            testImg: "shaq.png",
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
             banner: {
                 colWidth: 'col-9',
@@ -15,10 +14,11 @@ export default {
                 background: 'lamden-banner'
             },
             finalProduct: {
-                img: '/final-products/lamden.png',
+                img: '/featured-products/lamden.png',
                 alt: 'Lamden',
                 imageClass: 'lamden',
-                btnClasses: 'btn btn-gradient btn-gradient-purple'
+                btnClasses: 'btn btn-gradient btn-gradient-purple',
+                btnText: 'View Chrome Extension'
             },
             problem: {
                 intro: 'How might we make a crypto wallet more convenient for everyone so that we become the only crypto wallet you ever need to use to increase the adoption of Lamden.',
@@ -27,47 +27,48 @@ export default {
             personas: {
                 images: [
                     {
-                        img: '/final-products/personas/bob.png',
+                        img: '/featured-products/personas/bob.png',
                         alt: 'Lamden - Bob'
                     },
                     {
-                        img: '/final-products/personas/ace.png',
+                        img: '/featured-products/personas/ace.png',
                         alt: 'Lamden - Ace'
                     },
                     {
-                        img: '/final-products/personas/max.png',
+                        img: '/featured-products/personas/max.png',
                         alt: 'Lamden - Max'
                     },
-                ]
+                ],
+                imgClass: 'lamden-border'
             },
             scenarios: {
                 images: [
                     {
-                        img: '/final-products/scenarios/scenario-bob.png',
+                        img: '/featured-products/scenarios/scenario-bob.png',
                         alt: 'Lamden - User Scenarios'
                     },
                     {
-                        img: '/final-products/scenarios/scenario-ace.png',
+                        img: '/featured-products/scenarios/scenario-ace.png',
                         alt: 'Lamden - User Scenarios'
                     },
                     {
-                        img: '/final-products/scenarios/scenario-max.png',
+                        img: '/featured-products/scenarios/scenario-max.png',
                         alt: 'Lamden - User Scenarios'
                     },
                 ]
             },
             flows: {
-                img: '/final-products/flows/flows.png',
+                img: '/featured-products/flows/flows.png',
                 alt: 'Lamden - User Flow'
             },
             wireframes: {
                 images: [
                     {
-                        img: '/final-products/wireframes/onboarding.png',
+                        img: '/featured-products/wireframes/onboarding.png',
                         alt: 'Lamden - Onboarding'
                     },
                     {
-                        img: '/final-products/wireframes/prototype.png',
+                        img: '/featured-products/wireframes/prototype.png',
                         alt: 'Lamden - Prototype'
                     }
                 ]
@@ -76,12 +77,26 @@ export default {
                 title: 'Visual Design & Launch',
                 description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
                 topCol: 'col-9',
-                img: '/final-products/lamden.png',
+                img: '/featured-products/lamden.png',
                 alt: 'Lamden',
                 imageClass: 'lamden',
                 btnClasses: 'btn btn-gradient btn-gradient-purple',
                 bgGrey: true
-            }
+            },
+            work: {
+                images: [
+                    {
+                        img: '/featured-products/work/desktop.png',
+                        alt: 'Lamden - Desktop'
+                    },
+                    {
+                        img: '/featured-products/work/mobile.png',
+                        alt: 'Lamden - Mobile'
+                    }
+                ],
+                btnClasses: 'btn btn-gradient btn-gradient-purple',
+                imageClass: 'lamden'
+            },
         },
         {
             id: 2,
@@ -89,13 +104,42 @@ export default {
             link_name: "Comic NFT",
             slug: "lambdoge",
             gradient: "lambdoge",
-            testImg: "shaq.png",
             lead: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
             banner: {
                 title: "LambDoge - Comic NFTs",
                 text: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
-                background: 'lambdoge-banner'
-            }
+                background: 'lambdoge-banner',
+                colWidth: 'col'
+            },
+            finalProduct: {
+                img: '/featured-products/lambdoge.png',
+                alt: 'Lambdoge',
+                imageClass: 'lambdoge',
+                btnClasses: 'btn btn-gradient btn-gradient-gold',
+                btnText: 'View Website'
+            },
+            problem: {
+                intro: 'How might we make a comic NFT so that everyone reads the comic, votes on the story, and buys the LambDoge NFT.',
+                deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'High Fidelity Designs']
+            },
+            examples: {
+                images: [
+                    {
+                        img: '/featured-products/examples/lambdoge/dragon-kart.png',
+                        alt: 'Lambdoge - Dragon Kart'
+                    },
+                    {
+                        img: '/featured-products/examples/lambdoge/aurory-project.png',
+                        alt: 'Lambdoge - Aurory Project'
+                    },
+                    {
+                        img: '/featured-products/examples/lambdoge/block-dueler.png',
+                        alt: 'Lambdoge - Block Dueler'
+                    },
+                ],
+                imgClass: 'lambdoge-border',
+                paragraph: 'Designing for the comic book aesthetic was new to me. After meeting with the business stakeholder, we talked about a few websites we liked and found inspiration that was in-line with what we wanted.'
+            },
         },
         {
             id: 3,

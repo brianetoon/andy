@@ -4,18 +4,17 @@
       <div class="row center">
         <div class="col-9">
           <h2 class="align-center bottom-1">
-            Personas
+            Competitive Examples
           </h2>
           <p>
-            I created three personas to fit the target demographic. We need a business professional, an investor,
-            and a developer to fit these objectives.
+            {{ examples.paragraph }}
           </p>
         </div>
       </div>
       <div class="row top-2 image-row center">
-        <div class="col-free image-col" v-for="(persona, i) in personas.images" :key="i">
-          <div class="image-wrap" :class="personas.imgClass">
-            <img :src="require(`@/assets/images${persona.img}`)" :alt="persona.alt">
+        <div class="col-free image-col" v-for="(example, i) in examples.images" :key="i">
+          <div class="image-wrap" :class="examples.imgClass">
+            <img :src="require(`@/assets/images${example.img}`)" :alt="example.alt">
           </div>
         </div>
       </div>
@@ -25,7 +24,7 @@
 
 <script>
 export default {
-  props: ['personas']
+  props: ['examples']
 }
 </script>
 

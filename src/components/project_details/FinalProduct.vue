@@ -10,7 +10,7 @@
             Here's the end result of all of the hard work that went into the project. Keep scrolling if you want to learn
             about all the work that went into the process.
           </p>
-          <a href="#" class="btn btn-small top-2" :class="finalProduct.btnClasses">View Chrome Extension</a>
+          <a href="#" class="btn btn-small top-2" :class="finalProduct.btnClasses">{{ finalProduct.btnText }}</a>
         </div>
       </div>
       <div class="row center top-2">

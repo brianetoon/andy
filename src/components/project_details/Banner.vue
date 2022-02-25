@@ -22,9 +22,6 @@ export default {
 .project-banner {
     height: 420px;
     width: 100%;
-    padding: 30px;
-    display: flex;
-    align-items: center;
 }
 .project-banner h1 {
     margin-bottom: 20px;
@@ -39,6 +36,11 @@ export default {
 .lambdoge-banner {
     background: radial-gradient(37.19% 146.49% at 45.98% 49%, #FFE68E 0%, #F9AB34 100%);
 }
+
+.lambdoge-banner p {
+  width: 650px;
+}
+
 .lambdoge-banner > * {
     color: black;
 }

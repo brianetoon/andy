@@ -3,12 +3,14 @@
       <Banner :banner="project.banner" />
       <FinalProduct :finalProduct="project.finalProduct"/>
       <Problem :problem="project.problem"></Problem>
-      <Personas :personas="project.personas"></Personas>
-      <UserScenarios :scenarios="project.scenarios"></UserScenarios>
-      <Flows :flows="project.flows"></Flows>
-      <Wireframes :wireframes="project.wireframes"></Wireframes>
-      <Usability></Usability>
-      <Launch :launch="project.launch" :slug="project.slug"/>
+      <CompetitiveExamples :examples="project.examples" v-if="project.slug === 'lambdoge'"></CompetitiveExamples>
+      <Personas :personas="project.personas" v-if="project.slug === 'lamden'"></Personas>
+<!--      <UserScenarios :scenarios="project.scenarios"></UserScenarios>-->
+<!--      <Flows :flows="project.flows"></Flows>-->
+<!--      <Wireframes :wireframes="project.wireframes"></Wireframes>-->
+<!--      <Usability></Usability>-->
+<!--      <Launch :launch="project.launch" :slug="project.slug"></Launch>-->
+<!--      <Work :work="project.work"></Work>-->
     </main>
 </template>
 
@@ -25,6 +27,8 @@ import Flows from "@/components/project_details/Flows";
 import Wireframes from "@/components/project_details/Wireframes";
 import Usability from "@/components/project_details/Usability";
 import Launch from "@/components/project_details/Launch";
+import Work from "@/components/project_details/Work";
+import CompetitiveExamples from "@/components/project_details/CompetitiveExamples";
 
 export default {
     props: ['slug'],
@@ -38,7 +42,9 @@ export default {
       Flows,
       Wireframes,
       Usability,
-      Launch
+      Launch,
+      Work,
+      CompetitiveExamples
     },
     setup(props) {
 
@@ -56,5 +62,11 @@ export default {
 <style>
   img {
     display: block;
+  }
+  .lamden-border {
+    background: var(--border-grey);
+  }
+  .lambdoge-border {
+    background: radial-gradient(37.19% 146.49% at 45.98% 49%, var(--gr-gold-dk) 0%, var(--gr-gold-lt) 100%);
   }
 </style>

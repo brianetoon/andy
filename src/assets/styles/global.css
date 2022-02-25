@@ -13,11 +13,29 @@
     --grey: #424242;
     --white: #fff;
     --grey-dk: #151515;
+    --black: #000;
 
     --gr-purple-dk: #7949FC;
     --gr-purple-lt: #be17fb;
-    --gr-purple-dk-hover: #632bfc;
-    --gr-purple-lt-hover: #b004ef;
+    --gr-purple-dk-hover: #5417fb;
+    --gr-purple-lt-hover: #a204db;
+
+    --gr-green-dk: #39DB80;
+    --gr-green-lt: #05D6A4;
+    --gr-green-dk-hover: #23be67;
+    --gr-green-lt-hover: #04a47e;
+
+    --gr-gold-dk: #F9AB34;
+    --gr-gold-lt: #FFE68E;
+    --gr-gold-dk-hover: #f39607;
+    --gr-gold-lt-hover: #ffdb5b;
+
+    --gr-pink-dk: #CC00A1;
+    --gr-pink-lt: #FF00C9;
+    --gr-pink-dk-hover: #990079;
+    --gr-pink-lt-hover: #cc00a1;
+
+    --border-grey: #cdcdcd;
 
 
     --purple-gradient: linear-gradient(to right, var(--gr-purple-dk), var(--gr-purple-lt));
@@ -32,7 +50,7 @@
 }
 
 /* Reset */
-h1, h2, h3, p, a, ul, li {
+h1, h2, h3, h4, p, a, ul, li {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -58,6 +76,9 @@ h2 {
     font-size: 32px;
 }
 h3 {
+    font-size: 28px;
+}
+h4 {
     font-size: 28px;
 }
 p {
