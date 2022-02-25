@@ -85,16 +85,6 @@ p {
     font-size: 17px;
     line-height: 29px;
 }
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-nav a:hover {
-    color: var(--secondary);
-}
 section .title {
     text-align: center;
 }
@@ -146,6 +136,15 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav a:hover {
+    color: var(--primary);
 }
 
 section.padding-default {
