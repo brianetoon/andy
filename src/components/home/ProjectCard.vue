@@ -30,6 +30,7 @@ export default {
     background: var(--background);
     padding: 30px;
     transition: background 0.35s;
+    -webkit-transition: background 0.35s;
 }
 .project-card p {
     margin: 15px 0 25px;
@@ -55,20 +56,21 @@ export default {
 .learn-icon {
     margin-left: 8px;
     transition: 0.35s;
+    -webkit-transition: 0.35s;
 }
 
 /* Dynamic Classes */
 .lamden {
-    background: linear-gradient(to right, #7949FC, #BE17FB);
+    background: var(--purple-gradient);
 }
 .lambdoge {
-    background: linear-gradient(to right, #F9AB34, #FFE68E, #F9AB34);
+    background: var(--gold-gradient);
 }
 .nebula {
-    background: linear-gradient(to right, #FF66DF, #FF00C9, #CC00A1);
+    background: var(--pink-gradient);
 }
 .blender {
-    background: linear-gradient(to right, #39DB80, #05D6A4);
+    background: var(--green-gradient);
 }
 
 /* Media Queries */

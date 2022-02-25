@@ -1,0 +1,44 @@
+:root {
+    --primary: #00F3CB;
+    --secondary: #FF63DF;
+    --background: #222222;
+    --grey: #424242;
+    --white: #fff;
+    --grey-dk: #151515;
+    --black: #000;
+    --border-grey: #cdcdcd;
+
+    --gr-purple-dk: #7949FC;
+    --gr-purple-lt: #be17fb;
+    --gr-purple-dk-hover: #5417fb;
+    --gr-purple-lt-hover: #a204db;
+
+    --gr-green-dk: #39DB80;
+    --gr-green-lt: #05D6A4;
+    --gr-green-dk-hover: #23be67;
+    --gr-green-lt-hover: #04a47e;
+
+    --gr-gold-dk: #F9AB34;
+    --gr-gold-lt: #FFE68E;
+    --gr-gold-dk-hover: #f39607;
+    --gr-gold-lt-hover: #ffdb5b;
+
+    --gr-pink-dk: #CC00A1;
+    --gr-pink-lt: #FF00C9;
+    --gr-pink-extra-lt: #FF66DF;
+    --gr-pink-dk-hover: #990079;
+    --gr-pink-lt-hover: #cc00a1;
+
+    --gr-blue-green-dk: #00BAC6;
+    --gr-blue-green-lt: #C5FFAA;
+
+    --gr-lavender-dk: #9559FF;
+    --gr-lavender-lt: #E6B2FD;
+
+    --purple-gradient: linear-gradient(to right, var(--gr-purple-dk), var(--gr-purple-lt));
+    --gold-gradient: linear-gradient(to right, var(--gr-gold-dk), var(--gr-gold-lt), var(--gr-gold-dk));
+    --pink-gradient: linear-gradient(to right, var(--gr-pink-extra-lt), var(--gr-pink-lt), var(--gr-pink-dk));
+    --green-gradient: linear-gradient(to right, var(--gr-green-dk), var(--gr-green-lt));
+    --blue-green-gradient: linear-gradient(to right, var(--gr-blue-green-dk), var(--gr-blue-green-lt));
+    --lavender-gradient: linear-gradient(to right, var(--gr-lavender-lt), var(--gr-lavender-dk));
+}

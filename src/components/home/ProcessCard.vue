@@ -30,28 +30,28 @@ export default {
 
 /* Dynamic Classes */
 .understand {
-    background: linear-gradient(to right, #00BAC6, #C5FFAA);
+    background: var(--blue-green-gradient);
 }
 .understand > * {
-    color: #00BAC6;
+    color: var(--gr-blue-green-dk);
 }
 .design {
-    background: linear-gradient(to right, #FF66DF, #FF00C9, #CC00A1);
+    background: var(--pink-gradient);
 }
 .design > * {
-    color: #FF66DF;
+    color: var(--gr-pink-extra-lt);
 }
 .prototype {
-    background: linear-gradient(to right, #F9AB34, #FFE68E, #F9AB34);
+    background: var(--gold-gradient);
 }
 .prototype > * {
-    color: #FFE68E;
+    color: var(--gr-gold-lt);
 }
 .deliver {
-    background: linear-gradient(to right, #E6B2FD, #9559FF);
+    background: var(--lavender-gradient);
 }
 .deliver > * {
-    color: #E6B2FD;
+    color: var(--gr-lavender-lt);
 }
 
 /* Media Queries */

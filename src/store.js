@@ -196,7 +196,7 @@ export default {
     process_intro: "My job is to bring your vision to light. This starts with an understanding of your wants and needs. From there, I design and prototype to match the goal of the project, deliver a high-quality and user tested product, and continually learn from the data to ensure a positive result.",
     about: [
         {
-            title: "I'm UX Andy",
+            title: "I'm Andy",
             text: "My passion for creating an original and inspired user experience has led to work with a variety of brands. Through consulting I help businesses of all sizes turn their ideas into intuitive, customer-first designs. I am relentless in the goal of adding value to any product."
         },
         {

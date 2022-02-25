@@ -25,5 +25,7 @@ export default {
 </script>
 
 <style>
-
+.project-links a.router-link-active {
+    color: var(--primary);
+}
 </style>

@@ -30,7 +30,7 @@ export default {
     margin: 30px auto;
     padding: 5px;
     border-radius: 10px;
-    background: linear-gradient(to right, #00BAC6, #C5FFAA);
+    background: var(--blue-green-gradient);
 }
 .about-content {
     background: var(--background);

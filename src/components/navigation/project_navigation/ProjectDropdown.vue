@@ -73,7 +73,7 @@ export default {
     cursor: pointer;
 }
 .project-dropdown .button-content {
-    background: #151515;
+    background: var(--grey-dk);
     padding: 8px 16px;
     border-radius: 3px;
     display: flex;
@@ -98,7 +98,7 @@ export default {
 }
 .project-links {
     width: 100%;
-    background: linear-gradient(to right, #7949FC, #BE17FB);
+    background: var(--purple-gradient);
     position: absolute;
     padding: 0 2px 2px 2px;
     border-bottom-left-radius: 5px;
@@ -106,7 +106,7 @@ export default {
     transform-origin: top;
 }
 .project-links .links {
-    background: #151515;
+    background: var(--grey-dk);
     padding: 10px 0;
     border-radius: 3px;
 }

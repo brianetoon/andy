@@ -1,8 +1,8 @@
 <template>
   <Navbar />
-  <router-view v-slot="{ Component }">
+  <router-view v-slot="{ Component, route }">
     <transition :name="transitionName" mode="out-in">
-      <component :is="Component"></component>
+      <component :is="Component" :key="route.path"></component>
     </transition>
   </router-view>
   <Footer />
@@ -12,15 +12,24 @@
 import Navbar from './components/navigation/Navbar.vue'
 import Footer from './components/Footer.vue'
 import { ref } from '@vue/reactivity'
+import { watchEffect } from '@vue/runtime-core'
+import { useRoute } from 'vue-router'
 
 export default {
   components: { Navbar, Footer },
   setup() {
     const transitionName = ref('fade')
+    const route = useRoute()
 
     setTimeout(() => {
-      transitionName.value = 'route'
-    }, 100)
+      watchEffect(() => {
+        if (route.name === 'Home') {
+          transitionName.value = 'slide-right'
+        } else {
+          transitionName.value = 'slide-left'
+        }
+      })
+    }, 400)
 
     return { transitionName }
   }
@@ -29,19 +38,46 @@ export default {
 
 <style>
   /* Route Transition Classes */
+  .fade-enter-from {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    transition: all 0.4s ease-out;
+  }
+  .fade-leave-to {
+    opacity: 0;
+  }
+  .fade-leave-active {
+    transition: all 0.4s ease-in;
+  }
 
-  .route-enter-from {
+  .slide-left-enter-from {
     opacity: 0;
     transform: translateX(50%);
   }
-  .route-enter-active {
-    transition: all 0.3s ease-out;
+  .slide-left-enter-active {
+    transition: all 0.25s ease-out;
   }
-  .route-leave-to {
+  .slide-left-leave-to {
     opacity: 0;
     transform: translateX(-50%);
   }
-  .route-leave-active {
-    transition: all 0.3s ease-in;
+  .slide-left-leave-active {
+    transition: all 0.25s ease-in;
+  }
+
+  .slide-right-enter-from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  .slide-right-enter-active {
+    transition: all 0.25s ease-out;
+  }
+  .slide-right-leave-to {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  .slide-right-leave-active {
+    transition: all 0.25s ease-in;
   }
 </style>
