@@ -38,7 +38,7 @@ export default {
 }
 
 .lambdoge-banner p {
-  width: 650px;
+  width: 610px;
 }
 
 .lambdoge-banner > * {

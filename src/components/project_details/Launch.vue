@@ -9,7 +9,7 @@
           <p :class="'paragraph-' + slug">
             {{ launch.description }}
           </p>
-          <a href="#" class="btn btn-small top-2" :class="launch.btnClasses">View Chrome Extension</a>
+          <a href="#" class="btn btn-small top-2" :class="launch.btnClasses">{{ launch.btnText }}</a>
         </div>
       </div>
       <div class="row center top-2">
@@ -38,5 +38,8 @@ export default {
 }
 p.paragraph-lamden {
   margin-left: 54px;
+}
+.launch:not(.bg-grey) {
+  padding-bottom: 0;
 }
 </style>

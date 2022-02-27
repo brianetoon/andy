@@ -3,14 +3,25 @@
       <Banner :banner="project.banner" />
       <FinalProduct :finalProduct="project.finalProduct"/>
       <Problem :problem="project.problem"></Problem>
-      <CompetitiveExamples :examples="project.examples" v-if="project.slug === 'lambdoge'"></CompetitiveExamples>
+      <CompetitiveExamples :examples="project.examples"
+                           v-if="project.slug === 'lambdoge' || project.slug === 'nebula'">
+      </CompetitiveExamples>
       <Personas :personas="project.personas" v-if="project.slug === 'lamden'"></Personas>
-<!--      <UserScenarios :scenarios="project.scenarios"></UserScenarios>-->
-<!--      <Flows :flows="project.flows"></Flows>-->
-<!--      <Wireframes :wireframes="project.wireframes"></Wireframes>-->
-<!--      <Usability></Usability>-->
-<!--      <Launch :launch="project.launch" :slug="project.slug"></Launch>-->
-<!--      <Work :work="project.work"></Work>-->
+      <Wireframes :wireframes="project.wireframes"
+                  :slug="project.slug"
+                  v-if="project.slug === 'blender'">
+      </Wireframes>
+      <Fonts :fonts="project.fonts" v-if="project.slug !== 'lamden'"></Fonts>
+      <Stickers :stickers="project.stickers" v-if="project.slug === 'lambdoge'"></Stickers>
+      <UserScenarios :scenarios="project.scenarios" v-if="project.slug === 'lamden'"></UserScenarios>
+      <Flows :flows="project.flows" v-if="project.slug === 'lamden'"></Flows>
+      <Wireframes :wireframes="project.wireframes"
+                  :slug="project.slug"
+                  v-if="project.slug === 'lamden'">
+      </Wireframes> 
+      <Usability v-if="project.slug === 'lamden'"></Usability>
+      <Launch :launch="project.launch" :slug="project.slug"></Launch>
+      <Work :work="project.work" v-if="project.slug === 'lamden'"></Work>
     </main>
 </template>
 
@@ -29,6 +40,8 @@ import Usability from "@/components/project_details/Usability";
 import Launch from "@/components/project_details/Launch";
 import Work from "@/components/project_details/Work";
 import CompetitiveExamples from "@/components/project_details/CompetitiveExamples";
+import Fonts from "@/components/project_details/Fonts";
+import Stickers from "@/components/project_details/Stickers";
 
 export default {
     props: ['slug'],
@@ -44,7 +57,9 @@ export default {
       Usability,
       Launch,
       Work,
-      CompetitiveExamples
+      CompetitiveExamples,
+      Fonts,
+      Stickers
     },
     setup(props) {
 
@@ -68,5 +83,13 @@ export default {
   }
   .lambdoge-border {
     background: radial-gradient(37.19% 146.49% at 45.98% 49%, var(--gr-gold-dk) 0%, var(--gr-gold-lt) 100%);
+  }
+  .image-row {
+    margin-left: calc(-1 * var(--image-row-spacing));
+    margin-right: calc(-1 * var(--image-row-spacing));
+  }
+  .image-col {
+    padding-left: var(--image-row-spacing);
+    padding-right: var(--image-row-spacing);
   }
 </style>

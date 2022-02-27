@@ -62,13 +62,16 @@ export default {
                 alt: 'Lamden - User Flow'
             },
             wireframes: {
+                heading: 'Wireframes & Prototype',
+                bgGrey: true,
+                imgClass: 'lamden-border',
                 images: [
                     {
-                        img: '/featured-products/wireframes/onboarding.png',
+                        img: '/featured-products/wireframes/lamden/onboarding.png',
                         alt: 'Lamden - Onboarding'
                     },
                     {
-                        img: '/featured-products/wireframes/prototype.png',
+                        img: '/featured-products/wireframes/lamden/prototype.png',
                         alt: 'Lamden - Prototype'
                     }
                 ]
@@ -80,6 +83,7 @@ export default {
                 img: '/featured-products/lamden.png',
                 alt: 'Lamden',
                 imageClass: 'lamden',
+                btnText: 'View Chrome Extension',
                 btnClasses: 'btn btn-gradient btn-gradient-purple',
                 bgGrey: true
             },
@@ -140,6 +144,31 @@ export default {
                 imgClass: 'lambdoge-border',
                 paragraph: 'Designing for the comic book aesthetic was new to me. After meeting with the business stakeholder, we talked about a few websites we liked and found inspiration that was in-line with what we wanted.'
             },
+            fonts: {
+                paragraph: 'I was able to flex my visual design muscles more than I usually do to lean more into the fun aspects of this project.',
+                images: {
+                    img: '/featured-products/fonts/lambdoge.png',
+                    alt: 'Lambdoge - Fonts, Colors, Buttons'
+                }
+            },
+            stickers: {
+                paragraph: 'I was able to use the stickers that were already created for this project to keep it really fun and friendly.',
+                images: {
+                    img: '/featured-products/stickers/lambdoge.png',
+                    alt: 'Lambdoge - Stickers'
+                }
+            },
+            launch: {
+                title: 'Launch',
+                description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
+                topCol: 'col-9',
+                img: '/featured-products/launch/lambdoge.png',
+                alt: 'Lambdoge',
+                imageClass: 'lambdoge-image',
+                btnClasses: 'btn btn-gradient btn-gradient-gold',
+                btnText: 'View Website',
+                bgGrey: true
+            },
         },
         {
             id: 3,
@@ -152,8 +181,56 @@ export default {
             banner: {
                 title: "Nebula - DeFi",
                 text: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors",
-                background: 'nebula-banner'
-            }
+                background: 'nebula-banner',
+                colWidth: 'col-9',
+            },
+            finalProduct: {
+                img: '/featured-products/nebula.png',
+                alt: 'Nebula',
+                imageClass: 'nebula',
+                btnClasses: 'btn btn-gradient btn-gradient-pink',
+                btnText: 'View dApp'
+            },
+            problem: {
+                intro: 'How might we allow users to stake their cryptocurrency so that they can earn interest?',
+                deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'High Fidelity Designs']
+            },
+            examples: {
+                images: [
+                    {
+                        img: '/featured-products/examples/nebula/farms.png',
+                        alt: 'Lambdoge - Farms'
+                    },
+                    {
+                        img: '/featured-products/examples/nebula/staking.png',
+                        alt: 'Lambdoge - Staking Incentive'
+                    },
+                    {
+                        img: '/featured-products/examples/nebula/wtf.png',
+                        alt: 'Nebula - WTF Staking'
+                    },
+                ],
+                imgClass: 'nebula',
+                paragraph: 'The project stakeholder and I looked at a few examples to understand how we could this competitively. We looked at how others were using staking, liquidity, and receiving yields.'
+            },
+            fonts: {
+                paragraph: 'We landed on a space theme with dark colors and bright pinks to pop against the dark background. I really enjoy how fun, but professional this feels.',
+                images: {
+                    img: '/featured-products/fonts/nebula.png',
+                    alt: 'Nebula - Fonts, Colors, Buttons'
+                }
+            },
+            launch: {
+                title: 'Launch',
+                description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
+                topCol: 'col-9',
+                img: '/featured-products/launch/nebula.png',
+                alt: 'Nebula',
+                imageClass: 'nebula-image',
+                btnClasses: 'btn btn-gradient btn-gradient-pink',
+                btnText: 'View dApp',
+                bgGrey: false
+            },
         },
         {
             id: 4,
@@ -167,8 +244,57 @@ export default {
             banner: {
                 title: "Blender - dApp",
                 text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
-                background: 'blender-banner'
-            }
+                background: 'blender-banner',
+                colWidth: 'col-9',
+            },
+            finalProduct: {
+                img: '/featured-products/blender.png',
+                alt: 'Blender',
+                imageClass: 'blender',
+                btnClasses: 'btn btn-gradient btn-gradient-green',
+                btnText: 'View dApp'
+            },
+            problem: {
+                intro: 'How might we allow users to send transactions anonymously so that they can get a sense of privacy on the blockchain.',
+                deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'High Fidelity Designs']
+            },
+            wireframes: {
+                heading: 'Wireframes',
+                bgGrey: false,
+                imgClass: 'blender',
+                images: [
+                    {
+                        img: '/featured-products/wireframes/blender/deposit.png',
+                        alt: 'Blender - Deposit'
+                    },
+                    {
+                        img: '/featured-products/wireframes/blender/withdraw.png',
+                        alt: 'Blender - Withdraw'
+                    },
+                    {
+                        img: '/featured-products/wireframes/blender/confirm.png',
+                        alt: 'Blender - Confirm'
+                    }
+                ]
+            },
+            fonts: {
+                paragraph: 'I landed on a “DOS Mode” theme with dark colors and a bright green to give this a science fiction vibe.  ',
+                images: {
+                    img: '/featured-products/fonts/blender.png',
+                    alt: 'Blender - Fonts, Colors, Buttons'
+                }
+            },
+            launch: {
+                title: 'Launch',
+                description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
+                topCol: 'col-9',
+                img: '/featured-products/launch/blender.png',
+                alt: 'Blender',
+                imageClass: 'blender-image',
+                btnClasses: 'btn btn-gradient btn-gradient-green',
+                btnText: 'View dApp',
+                bgGrey: false
+            },
         }
     ],
     process: [

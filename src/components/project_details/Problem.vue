@@ -7,7 +7,7 @@
           <p>
             <span class="bold">The Problem:</span> {{ problem.intro }}
           </p>
-          <h4 class="top-3">
+          <h4 class="top-2">
             Deliverables
           </h4>
           <ul class="deliverables top-1">

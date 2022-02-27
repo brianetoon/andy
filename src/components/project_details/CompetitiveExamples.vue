@@ -30,14 +30,6 @@ export default {
 
 <style>
 
-.image-row {
-  margin-left: calc(-1 * var(--image-row-spacing));
-  margin-right: calc(-1 * var(--image-row-spacing));
-}
 
-.image-col {
-  padding-left: var(--image-row-spacing);
-  padding-right: var(--image-row-spacing);
-}
 
 </style>
