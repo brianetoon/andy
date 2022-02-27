@@ -56,14 +56,14 @@ export default {
     transform: translateX(50%);
   }
   .slide-left-enter-active {
-    transition: all 0.25s ease-out;
+    transition: all 0.2s ease-out;
   }
   .slide-left-leave-to {
     opacity: 0;
     transform: translateX(-50%);
   }
   .slide-left-leave-active {
-    transition: all 0.25s ease-in;
+    transition: all 0.2s ease-in;
   }
 
   .slide-right-enter-from {
@@ -71,13 +71,13 @@ export default {
     transform: translateX(-50%);
   }
   .slide-right-enter-active {
-    transition: all 0.25s ease-out;
+    transition: all 0.2s ease-out;
   }
   .slide-right-leave-to {
     opacity: 0;
     transform: translateX(50%);
   }
   .slide-right-leave-active {
-    transition: all 0.25s ease-in;
+    transition: all 0.2s ease-in;
   }
 </style>
