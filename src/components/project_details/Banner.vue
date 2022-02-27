@@ -20,7 +20,7 @@ export default {
 <style>
 
 .project-banner {
-    height: 420px;
+    height: var(--hero-height);
     width: 100%;
 }
 .project-banner h1 {
@@ -38,7 +38,8 @@ export default {
 }
 
 .lambdoge-banner p {
-  width: 610px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .lambdoge-banner > * {
@@ -50,4 +51,20 @@ export default {
 .blender-banner {
     background: linear-gradient(95.08deg, #39DB80 2.49%, #05D6A4 97.19%);
 }
+
+@media (max-width: 991px) {
+  .project-banner {
+    height: var(--hero-height-tablet);
+  }
+}
+
+@media (max-width: 480px) {
+  .project-banner {
+    height: var(--hero-height-mobile);
+  }
+  .lambdoge-banner h1 {
+    width: 290px;
+  }
+}
+
 </style>

@@ -2,7 +2,7 @@
   <section class="final-product padding-default">
     <div class="container">
       <div class="row center">
-        <div class="col-9">
+        <div class="col-9 col-md-13 col-xs-16">
           <h2 class="align-center bottom-1">
             Final Product
           </h2>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="row center top-2">
-        <div class="col-11 image-wrap" :class="finalProduct.imageClass">
+        <div class="col-14 col-md-16 image-wrap" :class="finalProduct.imageClass">
           <img :src="require(`@/assets/images${finalProduct.img}`)" :alt="finalProduct.alt">
         </div>
       </div>

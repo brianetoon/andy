@@ -2,7 +2,7 @@
   <section class="problem bg-grey padding-default">
     <div class="container">
       <div class="row center">
-        <div class="col-9">
+        <div class="col-9 col-md-13 col-xs-16">
           <h2 class="align-center bottom-1">The Problem</h2>
           <p>
             <span class="bold">The Problem:</span> {{ problem.intro }}
@@ -28,11 +28,20 @@ export default {
 </script>
 
 <style>
+
+  :root {
+    --list-spacing: 12px;
+  }
+
   ul.deliverables {
+    margin-left: calc(-1 * var(--list-spacing));
+    margin-right: calc(-1 * var(--list-spacing));
     padding-left: 16px;
   }
   ul.deliverables li {
     position: relative;
+    padding-left: var(--list-spacing);
+    padding-right: var(--list-spacing);
     margin: 0 0 12px;
     display: inline-block;
     width: 50%;
@@ -45,6 +54,13 @@ export default {
     border-radius: 50%;
     background: var(--white);
     top: 7px;
-    left: -12px;
+    left: -2px;
+  }
+
+  @media (max-width: 480px) {
+    ul.deliverables li {
+      display: block;
+      width: 100%;
+    }
   }
 </style>

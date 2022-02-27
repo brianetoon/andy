@@ -103,7 +103,8 @@
 .btn-gradient-gold {
     border-color: transparent;
     background-color: var(--gr-gold-dk);
-    background: linear-gradient(to right, var(--gr-gold-dk) 0%, var(--gr-gold-lt) 100%);
+    background: radial-gradient(37% 146% at 46% 49%, var(--gr-gold-lt) 0%, var(--gr-gold-dk) 100%);
+    /*background: linear-gradient(to right, var(--gr-gold-dk) 0%, var(--gr-gold-lt) 100%);*/
     transition: all 0.3s linear;
     transition-delay: 0s;
     -webkit-transition: all 0.3s linear;
@@ -115,7 +116,8 @@
 
 .btn-gradient-gold:before {
     background-color: var(--gr-gold-dk-hover);
-    background: linear-gradient(to right, var(--gr-gold-dk-hover) 0%, var(--gr-gold-lt-hover) 100%);
+    /*background: linear-gradient(to right, var(--gr-gold-dk-hover) 0%, var(--gr-gold-lt-hover) 100%);*/
+    background: radial-gradient(37% 146% at 46% 49%, var(--gr-gold-lt-hover) 0%, var(--gr-gold-dk-hover) 100%);
     transition: all 0.3s linear;
     transition-delay: 0s;
     -webkit-transition: all 0.3s linear;
@@ -161,4 +163,8 @@
     }
 }
 
-
+@media (max-width: 480px) {
+    .project-details .btn {
+        max-width: none;
+    }
+}

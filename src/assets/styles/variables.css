@@ -1,0 +1,15 @@
+/* Variables */
+:root {
+    --font-primary: 'Atkinson Hyperlegible', sans-serif;
+
+    --spacing-md: 48px;
+    --spacing-lg: 90px;
+
+    --border-radius-default: 4px;
+
+    --image-row-spacing: 12px;
+
+    --hero-height: 525px;
+    --hero-height-tablet: 435px;
+    --hero-height-mobile: 345px;
+}

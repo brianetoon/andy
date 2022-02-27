@@ -2,7 +2,7 @@
   <section class="scenarios padding-default bg-grey">
     <div class="container">
       <div class="row center">
-        <div class="col-9">
+        <div class="col-9 col-md-13 col-xs-16">
           <h2 class="align-center bottom-1">
             User Scenarios
           </h2>
@@ -12,8 +12,8 @@
           </p>
         </div>
       </div>
-      <div class="row top-2 image-row center">
-        <div class="col-free image-col" v-for="(scenario, i) in scenarios.images" :key="i">
+      <div class="row top-2 image-row center wrap-sm">
+        <div class="col-free col-sm-8 col-xs-free image-col" v-for="(scenario, i) in scenarios.images" :key="i">
           <img :src="require(`@/assets/images${scenario.img}`)" :alt="scenario.alt">
         </div>
       </div>

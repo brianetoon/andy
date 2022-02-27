@@ -2,7 +2,7 @@
   <section class="stickers padding-default">
     <div class="container">
       <div class="row center">
-        <div class="col-9 content-col">
+        <div class="col-9 col-md-13 col-xs-16">
           <h2 class="align-center bottom-1">
             Stickers
           </h2>

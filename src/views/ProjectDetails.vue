@@ -18,7 +18,7 @@
       <Wireframes :wireframes="project.wireframes"
                   :slug="project.slug"
                   v-if="project.slug === 'lamden'">
-      </Wireframes> 
+      </Wireframes>
       <Usability v-if="project.slug === 'lamden'"></Usability>
       <Launch :launch="project.launch" :slug="project.slug"></Launch>
       <Work :work="project.work" v-if="project.slug === 'lamden'"></Work>
@@ -77,6 +77,7 @@ export default {
 <style>
   img {
     display: block;
+    max-width: 100%;
   }
   .lamden-border {
     background: var(--border-grey);
@@ -92,4 +93,42 @@ export default {
     padding-left: var(--image-row-spacing);
     padding-right: var(--image-row-spacing);
   }
+  section.padding-default {
+    padding: var(--spacing-lg) 0;
+  }
+
+  section.padding-default-top {
+    padding: var(--spacing-lg) 0 0;
+  }
+
+  @media (max-width: 991px) {
+    section.padding-default {
+      padding: var(--spacing-md) 0;
+    }
+
+    section.padding-default-top {
+      padding: var(--spacing-md) 0 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .image-row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .image-col {
+      padding: var(--image-row-spacing);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-col {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+
+
+
 </style>

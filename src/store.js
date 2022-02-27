@@ -8,7 +8,7 @@ export default {
             gradient: "lamden",
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
             banner: {
-                colWidth: 'col-9',
+                colWidth: 'col-9 col-md-13 col-xs-16',
                 title: "Lamden - Blockchain",
                 text: "In 2018 I started following Lamden. What began as curiosity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
                 background: 'lamden-banner'
@@ -79,7 +79,7 @@ export default {
             launch: {
                 title: 'Visual Design & Launch',
                 description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
-                topCol: 'col-9',
+                topCol: 'col-9 col-md-13 col-xs-16',
                 img: '/featured-products/lamden.png',
                 alt: 'Lamden',
                 imageClass: 'lamden',
@@ -113,7 +113,7 @@ export default {
                 title: "LambDoge - Comic NFTs",
                 text: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
                 background: 'lambdoge-banner',
-                colWidth: 'col'
+                colWidth: 'col col-md-13 col-xs-16'
             },
             finalProduct: {
                 img: '/featured-products/lambdoge.png',
@@ -161,7 +161,7 @@ export default {
             launch: {
                 title: 'Launch',
                 description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
-                topCol: 'col-9',
+                topCol: 'col-9 col-md-13 col-xs-16',
                 img: '/featured-products/launch/lambdoge.png',
                 alt: 'Lambdoge',
                 imageClass: 'lambdoge-image',
@@ -182,12 +182,12 @@ export default {
                 title: "Nebula - DeFi",
                 text: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors",
                 background: 'nebula-banner',
-                colWidth: 'col-9',
+                colWidth: 'col-9 col-md-13 col-xs-16',
             },
             finalProduct: {
                 img: '/featured-products/nebula.png',
                 alt: 'Nebula',
-                imageClass: 'nebula',
+                imageClass: '',
                 btnClasses: 'btn btn-gradient btn-gradient-pink',
                 btnText: 'View dApp'
             },
@@ -223,7 +223,7 @@ export default {
             launch: {
                 title: 'Launch',
                 description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
-                topCol: 'col-9',
+                topCol: 'col-9 col-md-13 col-xs-16',
                 img: '/featured-products/launch/nebula.png',
                 alt: 'Nebula',
                 imageClass: 'nebula-image',
@@ -245,7 +245,7 @@ export default {
                 title: "Blender - dApp",
                 text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
                 background: 'blender-banner',
-                colWidth: 'col-9',
+                colWidth: 'col-9 col-md-13 col-xs-16',
             },
             finalProduct: {
                 img: '/featured-products/blender.png',
@@ -287,7 +287,7 @@ export default {
             launch: {
                 title: 'Launch',
                 description: 'The design was created in Figma to help with velocity, speed, and collaboration for the design and development.',
-                topCol: 'col-9',
+                topCol: 'col-9 col-md-13 col-xs-16',
                 img: '/featured-products/launch/blender.png',
                 alt: 'Blender',
                 imageClass: 'blender-image',

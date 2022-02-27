@@ -2,7 +2,7 @@
   <section class="wireframes padding-default" v-bind:class="{ 'bg-grey': wireframes.bgGrey }">
     <div class="container">
       <div class="row center">
-        <div class="col-9 content-col">
+        <div class="col-9 col-md-13 col-xs-16 content-col">
           <h2 class="align-center bottom-1">
             {{ wireframes.heading }}
           </h2>
@@ -25,8 +25,8 @@
           </div>
         </div>
       </div>
-      <div class="row top-2 image-row center">
-        <div class="col-free image-col" v-for="(wireframe, i) in wireframes.images" :key="i">
+      <div class="row top-2 image-row center wrap-sm">
+        <div class="image-col col-free col-sm-8 col-xs-free" v-for="(wireframe, i) in wireframes.images" :key="i">
           <div class="image-wrap" :class="wireframes.imgClass">
             <img :src="require(`@/assets/images${wireframe.img}`)" :alt="wireframe.alt">
           </div>
@@ -45,8 +45,8 @@ export default {
 <style>
 
 .content-col {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 

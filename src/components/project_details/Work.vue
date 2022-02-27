@@ -1,8 +1,8 @@
 <template>
-  <section class="work padding-default">
+  <section class="work padding-default-top">
     <div class="container">
       <div class="row center">
-        <div class="col-10">
+        <div class="col-10 col-md-13 col-xs-16">
           <h2 class="align-center bottom-1">
             More Work
           </h2>
@@ -13,7 +13,7 @@
           <a href="#" class="btn btn-small top-2" :class="work.btnClasses">View Website</a>
         </div>
       </div>
-      <div class="row top-2 image-row center">
+      <div class="row top-2 image-row center wrap-sm">
         <div class="col-free image-col" v-for="(image, i) in work.images" :key="i">
           <div class="image-wrap" :class="work.imageClass">
             <img :src="require(`@/assets/images${image.img}`)" :alt="image.alt">

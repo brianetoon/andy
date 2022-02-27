@@ -260,7 +260,7 @@
     }
 }
 
-@media (max-width: 543px) {
+@media (max-width: 480px) {
     .right-xs-0 {
         margin-right: 0;
     }

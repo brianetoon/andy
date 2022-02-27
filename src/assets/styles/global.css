@@ -1,22 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
-@import './spacing.css';
+
+@import './variables.css';
 @import './grid.css';
+@import './spacing.css';
 @import './helpers.css';
 @import './buttons.css';
 @import './navigation.css';
 @import './colors.css';
 
-/* Variables */
-:root {
-    --font-primary: 'Atkinson Hyperlegible', sans-serif;
 
-    --spacing-lg: 90px;
-
-    --border-radius-default: 4px;
-
-    --image-row-spacing: 12px;
-}
 
 /* Reset */
 h1, h2, h3, h4, p, a, ul, li {
@@ -84,11 +77,6 @@ span.bold {
     font-weight: 700;
 }
 
-
-
-section.padding-default {
-    padding: var(--spacing-lg) 0;
-}
 
 a.text-only {
     color: inherit;

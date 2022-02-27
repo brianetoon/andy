@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="row center top-2">
-        <div class="col-11 image-wrap" :class="launch.imageClass">
+        <div class="col-14 col-md-16 image-wrap" :class="launch.imageClass">
           <img :src="require(`@/assets/images${launch.img}`)" :alt="launch.alt">
         </div>
       </div>
@@ -42,4 +42,11 @@ p.paragraph-lamden {
 .launch:not(.bg-grey) {
   padding-bottom: 0;
 }
+
+@media (max-width: 767px) {
+  p.paragraph-lamden {
+    margin-left: 0;
+  }
+}
+
 </style>
