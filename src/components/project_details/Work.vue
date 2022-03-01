@@ -10,7 +10,7 @@
             The team was so excited with all the work that was done on the Lamden wallet that I was given the contract
             for a redesigned website. Check out their new website!
           </p>
-          <a href="#" class="btn btn-small top-2" :class="work.btnClasses">View Website</a>
+          <a :href="work.url" class="btn btn-small top-2" :class="work.btnClasses" target="_blank">View Website</a>
         </div>
       </div>
       <div class="row top-2 image-row center wrap-sm">

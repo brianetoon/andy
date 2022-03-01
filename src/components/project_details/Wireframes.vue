@@ -13,8 +13,8 @@
               paths if they were confused or lost.
             </p>
             <p>
-              I created a <a class="text-only underline" href="#">prototype</a> of the wireframes to share with the team to
-              get feedback. Here's the prototype in Axure. Fast iterations are very essential to this process.
+              I created a <a class="text-only underline" href="https://309glj.axshare.com/prototype/login/309glj#p=onboarding&id=rin06l" target="_blank">prototype</a>
+              of the wireframes to share with the team to get feedback. Here's the prototype in Axure. Fast iterations are very essential to this process.
             </p>
           </div>
           <div v-if="slug === 'blender'">

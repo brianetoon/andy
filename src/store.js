@@ -18,7 +18,8 @@ export default {
                 alt: 'Lamden',
                 imageClass: 'lamden',
                 btnClasses: 'btn btn-gradient btn-gradient-purple',
-                btnText: 'View Chrome Extension'
+                btnText: 'View Chrome Extension',
+                url: 'https://chrome.google.com/webstore/detail/lamden-vault-browser-exte/fhfffofbcgbjjojdnpcfompojdjjhdim'
             },
             problem: {
                 intro: 'How might we make a crypto wallet more convenient for everyone so that we become the only crypto wallet you ever need to use to increase the adoption of Lamden.',
@@ -83,6 +84,7 @@ export default {
                 img: '/featured-products/lamden.png',
                 alt: 'Lamden',
                 imageClass: 'lamden',
+                url: 'https://chrome.google.com/webstore/detail/lamden-vault-browser-exte/fhfffofbcgbjjojdnpcfompojdjjhdim',
                 btnText: 'View Chrome Extension',
                 btnClasses: 'btn btn-gradient btn-gradient-purple',
                 bgGrey: true
@@ -99,7 +101,8 @@ export default {
                     }
                 ],
                 btnClasses: 'btn btn-gradient btn-gradient-purple',
-                imageClass: 'lamden'
+                imageClass: 'lamden',
+                url: 'https://lamden.io/',
             },
         },
         {
@@ -120,7 +123,8 @@ export default {
                 alt: 'Lambdoge',
                 imageClass: 'lambdoge',
                 btnClasses: 'btn btn-gradient btn-gradient-gold',
-                btnText: 'View Website'
+                btnText: 'View Website',
+                url: 'https://lambdoge.com/'
             },
             problem: {
                 intro: 'How might we make a comic NFT so that everyone reads the comic, votes on the story, and buys the LambDoge NFT.',
@@ -167,6 +171,7 @@ export default {
                 imageClass: 'lambdoge-image',
                 btnClasses: 'btn btn-gradient btn-gradient-gold',
                 btnText: 'View Website',
+                url: 'https://lambdoge.com/',
                 bgGrey: true
             },
         },
@@ -188,6 +193,7 @@ export default {
                 img: '/featured-products/nebula.png',
                 alt: 'Nebula',
                 imageClass: '',
+                url: 'https://nebulamden.finance/',
                 btnClasses: 'btn btn-gradient btn-gradient-pink',
                 btnText: 'View dApp'
             },
@@ -229,6 +235,7 @@ export default {
                 imageClass: 'nebula-image',
                 btnClasses: 'btn btn-gradient btn-gradient-pink',
                 btnText: 'View dApp',
+                url: 'https://nebulamden.finance/',
                 bgGrey: false
             },
         },
@@ -252,7 +259,8 @@ export default {
                 alt: 'Blender',
                 imageClass: 'blender',
                 btnClasses: 'btn btn-gradient btn-gradient-green',
-                btnText: 'View dApp'
+                btnText: 'View dApp',
+                url: ''
             },
             problem: {
                 intro: 'How might we allow users to send transactions anonymously so that they can get a sense of privacy on the blockchain.',
@@ -293,6 +301,7 @@ export default {
                 imageClass: 'blender-image',
                 btnClasses: 'btn btn-gradient btn-gradient-green',
                 btnText: 'View dApp',
+                url: '',
                 bgGrey: false
             },
         }

@@ -9,7 +9,7 @@
           <p :class="'paragraph-' + slug">
             {{ launch.description }}
           </p>
-          <a href="#" class="btn btn-small top-2" :class="launch.btnClasses">{{ launch.btnText }}</a>
+          <a :href="launch.url" class="btn btn-small top-2" :class="launch.btnClasses">{{ launch.btnText }}</a>
         </div>
       </div>
       <div class="row center top-2">
