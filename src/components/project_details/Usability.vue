@@ -8,7 +8,7 @@
           </h2>
           <p>
             Interviews were done over Zoom and Skype while screen sharing and usability was done using
-            <a href="https://www.usertesting.com" class="text-only">usertesting.com</a>. All of the feedback went into further
+            <a href="https://www.usertesting.com" class="text-only" target="_blank">usertesting.com</a>. All of the feedback went into further
             iterations of the prototype.
           </p>
         </div>
