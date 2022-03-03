@@ -108,7 +108,7 @@ export default {
         {
             id: 2,
             title: "LambDoge - Comic NFTs",
-            link_name: "Comic NFT",
+            link_name: "LambDoge",
             slug: "lambdoge",
             gradient: "lambdoge",
             lead: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
@@ -178,7 +178,7 @@ export default {
         {
             id: 3,
             title: "Nebula - DeFi",
-            link_name: "DeFi",
+            link_name: "Nebula",
             slug: "nebula",
             gradient: "nebula",
             testImg: "shaq.png",
@@ -242,7 +242,7 @@ export default {
         {
             id: 4,
             title: "Blender - dApp",
-            link_name: "Dao's",
+            link_name: "Blender",
             slug: "blender",
             gradient: "blender",
             testImg: "shaq.png",
