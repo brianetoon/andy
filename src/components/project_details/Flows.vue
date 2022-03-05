@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="row top-2 center">
-        <div class="col-free align-center">
+        <div class="col-12 col-md-14 col-xs-16 align-center">
           <img :src="require(`@/assets/images${flows.img}`)" :alt="flows.alt">
         </div>
       </div>

@@ -14,7 +14,7 @@
       </div>
       <div class="row top-2 image-row center wrap-sm">
         <div class="col-free col-sm-8 col-xs-free image-col" v-for="(scenario, i) in scenarios.images" :key="i">
-          <img :src="require(`@/assets/images${scenario.img}`)" :alt="scenario.alt">
+          <img class="image-small" :src="require(`@/assets/images${scenario.img}`)" :alt="scenario.alt">
         </div>
       </div>
     </div>

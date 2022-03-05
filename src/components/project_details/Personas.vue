@@ -15,7 +15,7 @@
       <div class="row top-2 image-row center wrap-sm">
         <div class="col-free col-sm-8 col-xs-free image-col" v-for="(persona, i) in personas.images" :key="i">
           <div class="image-wrap" :class="personas.imgClass">
-            <img :src="require(`@/assets/images${persona.img}`)" :alt="persona.alt">
+            <img class="image-small" :src="require(`@/assets/images${persona.img}`)" :alt="persona.alt">
           </div>
         </div>
       </div>

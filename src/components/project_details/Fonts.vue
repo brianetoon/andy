@@ -13,7 +13,7 @@
       </div>
       <div class="row top-2 image-row center">
         <div class="col-free image-col">
-          <img :src="require(`@/assets/images${fonts.images.img}`)" :alt="fonts.images.alt">
+          <img class="image-medium" :src="require(`@/assets/images${fonts.images.img}`)" :alt="fonts.images.alt">
         </div>
       </div>
     </div>

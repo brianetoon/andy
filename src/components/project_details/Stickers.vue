@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="row top-2 image-row center">
-        <div class="col-free image-col">
+        <div class="col-10 col-md-13 col-sm-16 image-col">
           <img :src="require(`@/assets/images${stickers.images.img}`)" :alt="stickers.images.alt">
         </div>
       </div>

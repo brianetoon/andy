@@ -11,10 +11,10 @@
           </p>
         </div>
       </div>
-      <div class="row top-2 image-row center wrap-xs">
+      <div class="row top-2 image-row center wrap-sm">
         <div class="col-free col-sm-8 col-xs-free image-col" v-for="(example, i) in examples.images" :key="i">
           <div class="image-wrap" :class="examples.imgClass">
-            <img :src="require(`@/assets/images${example.img}`)" :alt="example.alt">
+            <img class="image-small" :src="require(`@/assets/images${example.img}`)" :alt="example.alt">
           </div>
         </div>
       </div>

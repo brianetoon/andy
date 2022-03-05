@@ -28,7 +28,7 @@
       <div class="row top-2 image-row center wrap-sm">
         <div class="image-col col-free col-sm-8 col-xs-free" v-for="(wireframe, i) in wireframes.images" :key="i">
           <div class="image-wrap" :class="wireframes.imgClass">
-            <img :src="require(`@/assets/images${wireframe.img}`)" :alt="wireframe.alt">
+            <img class="image-small" :src="require(`@/assets/images${wireframe.img}`)" :alt="wireframe.alt">
           </div>
         </div>
       </div>

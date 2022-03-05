@@ -14,8 +14,8 @@
         </div>
       </div>
       <div class="row top-2 image-row center wrap-sm">
-        <div class="col-free image-col" v-for="(image, i) in work.images" :key="i">
-          <div class="image-wrap" :class="work.imageClass">
+        <div class="col-free image-col no-mobile-horizontal-padding" v-for="(image, i) in work.images" :key="i">
+          <div class="image-wrap" :class="work.imageClass" v-bind:class="{ last: i === (work.images.length - 1) }">
             <img :src="require(`@/assets/images${image.img}`)" :alt="image.alt">
           </div>
         </div>
@@ -32,6 +32,35 @@ export default {
 
 <style>
 
+.work .image-wrap img {
+  height: 485px;
+}
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .work .image-wrap img {
+    height: 414px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 991px) {
+  .work .image-wrap img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+  .work .image-wrap img {
+    height: 313px;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-wrap.last {
+    max-width: 320px;
+  }
+  .work .image-wrap img {
+    height: auto;
+  }
+}
 
 </style>

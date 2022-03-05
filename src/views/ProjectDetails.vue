@@ -79,6 +79,15 @@ export default {
     display: block;
     max-width: 100%;
   }
+  .project-details {
+    overflow-x: hidden;
+  }
+  .image-small {
+    width: 292px;
+  }
+  .image-medium {
+    width: 535px;
+  }
   .lamden-border {
     background: var(--border-grey);
   }
@@ -111,6 +120,12 @@ export default {
     }
   }
 
+  @media (min-width: 768px) and (max-width: 991px) {
+    .image-small {
+      width: 270px;
+    }
+  }
+
   @media (max-width: 767px) {
     .image-row {
       margin-left: 0;
@@ -118,6 +133,14 @@ export default {
     }
     .image-col {
       padding: var(--image-row-spacing);
+    }
+    .image-col.no-mobile-horizontal-padding {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .image-small,
+    .image-medium {
+      width: auto;
     }
   }
 
