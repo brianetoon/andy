@@ -5,7 +5,7 @@
             :class="{ open: showingDropdown, closed: !showingDropdown }"
             @click="toggleDropdown">
             <div class="button-content">
-                <span class="button-text">Featured Projects</span>
+                <span class="button-text"> <span>Featured</span> Projects</span>
                 <img src="@/assets/icons/caret_down.svg" class="caret" v-if="!showingDropdown">
                 <img src="@/assets/icons/caret_up.svg" class="caret" v-if="showingDropdown">
             </div>
@@ -92,6 +92,9 @@ export default {
 .button-text {
     font-size: 16px;
 }
+.button-text span {
+    display: none;
+}
 .caret {
     width: 15px;
     margin-left: 10px;
@@ -122,7 +125,11 @@ export default {
     background: var(--purple-gradient);
     color: white;
 }
-
+@media screen and (min-width: 440px) {
+    .button-text span {
+        display: inline-block;
+    }
+}
 @media screen and (min-width: 640px) {
     .button-text {
         font-size: 17px;

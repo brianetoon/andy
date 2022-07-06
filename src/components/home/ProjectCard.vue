@@ -60,6 +60,9 @@ export default {
 }
 
 /* Dynamic Classes */
+.bread {
+    background: var(--blue-gradient);
+}
 .lamden {
     background: var(--purple-gradient);
 }

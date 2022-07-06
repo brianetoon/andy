@@ -10,7 +10,6 @@
 @import './colors.css';
 
 
-
 /* Reset */
 h1, h2, h3, h4, p, a, ul, li {
     margin: 0;
@@ -68,6 +67,9 @@ section .title {
     margin-left: auto;
     margin-right: auto;
 }
+.container > .row {
+    padding: 0 30px;
+}
 
 .bg-grey {
     background: var(--grey);
@@ -77,13 +79,16 @@ span.bold {
     font-weight: 700;
 }
 
-
 a.text-only {
     color: inherit;
 }
 
 .underline {
     text-decoration: underline;
+}
+
+.center-img {
+    margin: 0 auto;
 }
 
 
@@ -96,10 +101,6 @@ a.text-only {
 @media (max-width: 991px) {
     .container {
         width: 100%;
-    }
-    .container > .row {
-        padding-left: 16px;
-        padding-right: 16px;
     }
 }
 
@@ -119,6 +120,9 @@ a.text-only {
     h2 {
         font-size: 36px;
     }
+    .container > .row {
+        padding: 0 40px;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -136,6 +140,15 @@ a.text-only {
     }
     .sub-text {
         font-size: 16px;
+    }
+    .container > .row {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container > .row {
+        padding: 0;
     }
 }
 @media screen and (min-width: 1200px) {

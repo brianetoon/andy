@@ -1,7 +1,7 @@
 <template>
     <div class="mobile-nav">
         <div class="nav-content">
-            <h2 class="logo">UX Andy</h2>
+            <h2 class="logo">Andy Phillips</h2>
 
             <img src="@/assets/icons/close.svg" class="close" 
                 @click="closeDropdown" v-if="showingDropdown">

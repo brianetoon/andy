@@ -7,10 +7,10 @@
 
         <div class="overlay">
             <div class="content">
-                <h1>Designing for Web3</h1>
+                <h1>Hi, I'm Andy.</h1>
                 <p class="lead">
-                    When did design get so serious? <br>
-                    Let's create <span class="highlight">fun</span>, <span class="highlight">inspiring</span>, and <span class="highlight">imaginative</span> digital experiences.
+                    I'm a Product Designer at Bread Financial. I'm currently creating digital
+                    <br> experiences for personalized payment, lending and saving solutions.
                 </p>
                 <a href="mailto: uxandyphil@gmail.com" class="btn btn-outline btn-border-primary">
                     Email Me
@@ -60,8 +60,14 @@ video {
     flex-direction: column;
     justify-content: center;
 }
+#video-banner a.btn {
+    margin: 0 auto 30px;
+}
 #video-banner .content > * {
     margin-bottom: 30px;
+}
+#video-banner br {
+    display: none;
 }
 .highlight {
     color: var(--primary);
@@ -76,6 +82,9 @@ video {
         width: 100%;
         height: auto;
     }
+    #video-banner br {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -83,7 +92,7 @@ video {
         text-align: left;
         padding: 30px 40px;
     }
-    #video-banner .btn {
+    #video-banner a.btn {
         margin: 0 0 30px;
         max-width: 220px;
     }
@@ -102,7 +111,7 @@ video {
     #video-banner .content > * {
         margin-bottom: 35px;
     }
-    #video-banner .btn {
+    #video-banner a.btn {
         margin-bottom: 25px;
         font-size: 19px;
     }

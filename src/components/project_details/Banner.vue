@@ -26,8 +26,16 @@ export default {
 .project-banner h1 {
     margin-bottom: 20px;
 }
+.project-banner .container {
+  max-width: 1120px;
+}
 
 /* Dynamic Classes */
+.bread-banner {
+    background-image: url('../../assets/images/bread_banner.png');
+    background-size: cover;
+    background-position: center;
+}
 .lamden-banner {
     background-image: url('../../assets/images/lamden_banner.png');
     background-size: cover;
@@ -56,6 +64,12 @@ export default {
   .project-banner {
     height: var(--hero-height-tablet);
   }
+}
+
+@media screen and (min-width: 992px) {
+    .project-banner .container {
+        padding: 0 50px;
+    }
 }
 
 @media (max-width: 480px) {

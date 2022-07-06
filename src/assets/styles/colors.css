@@ -8,6 +8,13 @@
     --black: #000;
     --border-grey: #cdcdcd;
 
+    --gr-blue-dk: #0F60F9;
+    --gr-blue-lt: #2FEBE6;
+    --gr-blue-dk-hover: #0f4fc7;
+    --gr-blue-lt-hover: #20aaa6;
+
+
+
     --gr-purple-dk: #7949FC;
     --gr-purple-lt: #be17fb;
     --gr-purple-dk-hover: #5417fb;
@@ -35,6 +42,7 @@
     --gr-lavender-dk: #9559FF;
     --gr-lavender-lt: #E6B2FD;
 
+    --blue-gradient: linear-gradient(to right, var(--gr-blue-dk), var(--gr-blue-lt));
     --purple-gradient: linear-gradient(to right, var(--gr-purple-dk), var(--gr-purple-lt));
     --gold-gradient: linear-gradient(to right, var(--gr-gold-dk), var(--gr-gold-lt), var(--gr-gold-dk));
     --pink-gradient: linear-gradient(to right, var(--gr-pink-extra-lt), var(--gr-pink-lt), var(--gr-pink-dk));

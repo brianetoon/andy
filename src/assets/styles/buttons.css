@@ -58,6 +58,27 @@
     opacity: 1;
 }
 
+.btn-gradient-blue {
+    border-color: transparent;
+    background-color: var(--gr-purple-dk);
+    background: linear-gradient(to right, var(--gr-blue-dk) 0%, var(--gr-blue-lt) 100%);
+    transition: all 0.3s linear;
+    transition-delay: 0s;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition-delay: 0s;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-gradient-blue:before {
+    background-color: var(--gr-purple-dk-hover);
+    background: linear-gradient(to right, var(--gr-blue-dk-hover) 0%, var(--gr-blue-lt-hover) 100%);
+    transition: all 0.3s linear;
+    transition-delay: 0s;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transition-delay: 0s;
+}
+
 .btn-gradient-purple {
     border-color: transparent;
     background-color: var(--gr-purple-dk);
