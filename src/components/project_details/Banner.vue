@@ -31,13 +31,18 @@ export default {
 }
 
 /* Dynamic Classes */
-.bread-banner {
-    background-image: url('../../assets/images/bread_banner.png');
+.bread-account-center-banner {
+    background-image: url('../../assets/images/banners/account_center_banner.png');
+    background-size: cover;
+    background-position: center;
+}
+.bread-easypay-banner {
+    background-image: url('../../assets/images/banners/easypay_banner.png');
     background-size: cover;
     background-position: center;
 }
 .lamden-banner {
-    background-image: url('../../assets/images/lamden_banner.png');
+    background-image: url('../../assets/images/banners/lamden_banner.png');
     background-size: cover;
     background-position: center;
 }

@@ -29,29 +29,37 @@ export default {
 }
 
 /* Dynamic Classes */
-.understand {
-    background: var(--blue-green-gradient);
+.understand, 
+.learn {
+    background: var(--blue-gradient);
 }
-.understand > * {
-    color: var(--gr-blue-green-dk);
+.understand > *,
+.learn > * {
+    color: var(--gr-blue-lt);
 }
-.design {
+.wireframe {
     background: var(--pink-gradient);
 }
-.design > * {
+.wireframe > * {
     color: var(--gr-pink-extra-lt);
 }
-.prototype {
+.design {
     background: var(--gold-gradient);
 }
-.prototype > * {
+.design > * {
     color: var(--gr-gold-lt);
 }
-.deliver {
+.prototype {
     background: var(--lavender-gradient);
 }
-.deliver > * {
+.prototype > * {
     color: var(--gr-lavender-lt);
+}
+.user-test {
+    background: var(--green-gradient);
+}
+.user-test > * {
+    color: var(--gr-green-dk)
 }
 
 /* Media Queries */

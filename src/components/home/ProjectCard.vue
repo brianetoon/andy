@@ -60,7 +60,7 @@ export default {
 }
 
 /* Dynamic Classes */
-.bread {
+.bread-easypay {
     background: var(--blue-gradient);
 }
 .lamden {
@@ -72,7 +72,7 @@ export default {
 .nebula {
     background: var(--pink-gradient);
 }
-.blender {
+.bread-account-center {
     background: var(--green-gradient);
 }
 
