@@ -2,7 +2,7 @@
     <section class="project-banner" :class="banner.background">
       <div class="container full-height">
         <div class="row full-height v-center">
-          <div :class="banner.colWidth">
+          <div>
             <h1>{{ banner.title }}</h1>
             <p>{{ banner.text }}</p>
           </div>
@@ -20,11 +20,15 @@ export default {
 <style>
 
 .project-banner {
-    height: var(--hero-height);
-    width: 100%;
+  height: var(--hero-height);
+  width: 100%;
 }
 .project-banner h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+.project-banner p {
+  max-width: 550px;
+  width: 100%;
 }
 .project-banner .container {
   max-width: 1120px;
@@ -46,18 +50,22 @@ export default {
     background-size: cover;
     background-position: center;
 }
+.versapay-banner {
+    background-image: url('../../assets/images/banners/versapay_banner.png');
+    background-size: cover;
+    background-position: center;
+}
+.versapay-banner > * {
+    color: black;
+}
+
 .lambdoge-banner {
     background: radial-gradient(37.19% 146.49% at 45.98% 49%, #FFE68E 0%, #F9AB34 100%);
 }
-
-.lambdoge-banner p {
-  max-width: 550px;
-  width: 100%;
-}
-
 .lambdoge-banner > * {
     color: black;
 }
+
 .nebula-banner {
     background: linear-gradient(95.06deg, #FF66DF 2.48%, #FF00C9 27.7%, #CC00A1 56.28%);
 }

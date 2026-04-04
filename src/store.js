@@ -9,7 +9,6 @@ export default {
             gradient: "bread-account-center",
             lead: "Manage your credit card with Account Center. Make a payment, view your transactions and statements, redeem rewards, lock your card, and manage your profile all within your Account Center.",
             banner: {
-                colWidth: 'col-9 col-md-11 col-xs-16',
                 title: "Bread Financial - Account Center",
                 text: "Manage your credit card with Account Center. Make a payment, view your transactions and statements, redeem rewards, lock your card, and manage your profile all within your Account Center. ",
                 background: 'bread-account-center-banner'
@@ -116,7 +115,6 @@ export default {
             gradient: "bread-easypay",
             lead: "Pay faster without signing in. Comenity's EasyPay is a great way to pay your bill in a hurry.",
             banner: {
-                colWidth: 'col-9 col-md-11 col-xs-16',
                 title: "Bread Financial - EasyPay",
                 text: "Pay Faster Without Signing In. Comenity’s EasyPay is a great way to pay your bill in a hurry.",
                 background: 'bread-easypay-banner'
@@ -265,7 +263,6 @@ export default {
             gradient: "lamden",
             lead: "Lamden is the performant Python-based blockchain platform that makes using and creating the next generation of dApps easy for everyone.",
             banner: {
-                colWidth: 'col-11 col-md-13 col-xs-16',
                 title: "Lamden - Blockchain",
                 text: "In 2018 I started following Lamden. What began as curiosity about blockchain bloomed into a relationship with the team and lots of freelance opportunities.",
                 background: 'lamden-banner'
@@ -406,7 +403,6 @@ export default {
                 title: "LambDoge - Comic NFTs",
                 text: "A comic book series that is written by, voted on and enjoyed by the LambDoge community.",
                 background: 'lambdoge-banner',
-                colWidth: 'col col-md-13 col-xs-16'
             },
 
             sections: [
@@ -495,7 +491,6 @@ export default {
                 title: "Nebula - DeFi",
                 text: "Helps bring new projects to life by removing barriers to development, connecting projects and users, and rewarding contributors",
                 background: 'nebula-banner',
-                colWidth: 'col-9 col-md-13 col-xs-16',
             },
 
             sections: [
@@ -564,8 +559,44 @@ export default {
                 },
             ]
         },
+        {
+            id: 5,
+            title: "Versapay - Operations Portal",
+            name: "versapay - operations portal",
+            link_name: "Versapay",
+            slug: "versapay",
+            gradient: "",
+            lead: "An internal platform designed to empower Versapay teams to operate more efficiently across critical stages of the customer lifecycle.",
+            banner: {
+                title: "Versapay - Operations Portal",
+                text: "An internal platform designed to empower Versapay teams to operate more efficiently across critical stages of the customer lifecycle.",
+                background: "versapay-banner"
+            },
+
+            sections: [
+                {
+                    title: "Final Product",
+                    intro: "I've lead white label projects (200+ client websites) from idea to launch on Account Center. This is a deep dive into just one of those projects; credit card activation.",
+                    button: {
+                        classes: "btn btn-gradient btn-gradient-blue",
+                        text: "View Account Center",
+                        url: "https://d.comenity.net/ac/nflvisa/public/home"
+                    },
+                    image: {
+                        url: "/featured-projects/final/bread-account-center.png",
+                        alt: "Bread Account Center - Final Product",
+                        classes: "bread image-wrap"
+                    }
+                },
+                {
+                    title: "The Problem",
+                    intro: "The Problem: How might we make card activation faster to increase spend on credit cards while also encouraging registration, paperless, and Account Assure.",
+                    deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'Prototypes', 'Flows', 'User Testing', 'Scenarios', 'High Fidelity Designs']
+                },
+            ]
+        },
         // {
-        //     id: 5,
+        //     id: 6,
         //     title: "Blender - dApp",
         //     name: "blender",
         //     link_name: "Blender",
@@ -578,7 +609,6 @@ export default {
         //         title: "Blender - dApp",
         //         text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
         //         background: 'blender-banner',
-        //         colWidth: 'col-9 col-md-13 col-xs-16',
         //     },
 
         //     sections: [
