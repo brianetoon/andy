@@ -14,22 +14,20 @@ import Banner from '@/components/project_details/Banner.vue'
 import ProjectSection from '@/components/project_details/ProjectSection.vue'
 
 export default {
-    props: ['slug'],
-    components: {
-      ProjectSection,
-      ProjectNav,
-      Banner
-    },
-    setup(props) {
-
-        const project = computed(() => {
-            return store.projects.find(project => {
-                return project.slug === props.slug
-            })
-        })
-
-        return { project }
-    }
+  props: ['slug'],
+  components: {
+    ProjectSection,
+    ProjectNav,
+    Banner
+  },
+  setup(props) {
+    const project = computed(() => {
+      return store.projects.find(project => {
+        return project.slug === props.slug
+      })
+    })
+    return { project }
+  }
 }
 </script>
 

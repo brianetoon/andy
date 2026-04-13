@@ -19,6 +19,7 @@ header {
 .logo {
     font-size: 17px;
     font-weight: 700;
+    color: white;
 }
 nav a {
     color: white;
@@ -26,7 +27,8 @@ nav a {
     font-size: 16px;
     cursor: pointer;
 }
-nav a:hover {
+nav a:hover,
+.logo:hover {
     color: var(--primary);
 }
 

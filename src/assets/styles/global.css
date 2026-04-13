@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
-
 @import './variables.css';
 @import './grid.css';
 @import './spacing.css';
@@ -8,7 +7,6 @@
 @import './buttons.css';
 @import './navigation.css';
 @import './colors.css';
-
 
 /* Reset */
 h1, h2, h3, h4, p, a, ul, li {
@@ -75,7 +73,7 @@ section .title {
     background: var(--grey);
 }
 
-span.bold {
+.bold {
     font-weight: 700;
 }
 
@@ -91,6 +89,9 @@ a.text-only {
     margin: 0 auto;
 }
 
+.content-padding {
+    padding: 0 30px;
+}
 
 @media (max-width: 1199px) {
     .container {
@@ -120,6 +121,7 @@ a.text-only {
     h2 {
         font-size: 36px;
     }
+    .content-padding,
     .container > .row {
         padding: 0 40px;
     }
@@ -141,6 +143,7 @@ a.text-only {
     .sub-text {
         font-size: 16px;
     }
+    .content-padding,
     .container > .row {
         padding: 0 50px;
     }
@@ -151,6 +154,7 @@ a.text-only {
         padding: 0;
     }
 }
+
 @media screen and (min-width: 1200px) {
     h1 {
         font-size: 64px;
@@ -160,5 +164,8 @@ a.text-only {
     }
     h3 {
         font-size: 38px;
+    }
+    .content-padding {
+        padding: 0 78px;
     }
 }

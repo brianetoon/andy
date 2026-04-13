@@ -14,8 +14,8 @@ import ProjectCard from './ProjectCard.vue'
 export default {
     components: { ProjectCard },
     setup() {
-        const projects = ref(store.projects)
-
+        const filteredProjects = store.projects.filter(p => !p.hidden)
+        const projects = ref(filteredProjects)
         return { projects }
     }
 }

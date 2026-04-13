@@ -2,6 +2,7 @@ export default {
     projects: [
         {
             id: 0,
+            hidden: false,
             title: "Bread Financial - Account Center",
             name: "bread financial - account center",
             link_name: "Account Center",
@@ -108,6 +109,7 @@ export default {
         },
         {
             id: 1,
+            hidden: false,
             title: "Bread Financial - EasyPay",
             name: "bread financial - easypay",
             link_name: "EasyPay",
@@ -393,6 +395,7 @@ export default {
         },
         {
             id: 3,
+            hidden: false,
             title: "LambDoge - Comic NFTs",
             name: "lambdoge",
             link_name: "LambDoge",
@@ -480,6 +483,7 @@ export default {
         },
         {
             id: 4,
+            hidden: false,
             title: "Nebula - DeFi",
             link_name: "Nebula",
             name: "nebula",
@@ -561,6 +565,7 @@ export default {
         },
         {
             id: 5,
+            hidden: true,
             title: "Versapay - Operations Portal",
             name: "versapay - operations portal",
             link_name: "Versapay",
@@ -575,139 +580,256 @@ export default {
 
             sections: [
                 {
+                    title: "Overview",
+                    description_list: [
+                        {
+                            term: "Project Team: ",
+                            details: "1 Product Designer (me), 2 Product Managers, 9 QA & Engineers"
+                        },
+                        {
+                            term: "Timeline: ",
+                            details: "3 year+ project"
+                        },
+                        {
+                            term: "Impact: ",
+                            details: "Own end to end experience, reduce manual internal processes, increase speed to first payment with our customers."
+                        },
+                    ],
+                    stacked_images: [
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-1.png',
+                            alt: 'versapay overview 1'
+                        },
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-2.png',
+                            alt: 'versapay overview 2'
+                        },
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-3.png',
+                            alt: 'versapay overview 3'
+                        },
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-4.png',
+                            alt: 'versapay overview 4'
+                        },
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-5.png',
+                            alt: 'versapay overview 5'
+                        },
+                        {
+                            url: '/featured-projects/versapay/overview/versapay-overview-6.png',
+                            alt: 'versapay overview 6'
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "The Problem",
+                    description_list: [
+                        {
+                            term: "The Prolem: ",
+                            details: "Rapid growth led Versapay to rely on third-party vendors to fill critical gaps. After a deal was closed, clients often waited months to access the solution they were sold—creating friction, delays, and a poor first impression. We needed to dramatically accelerate this post-sale experience."
+                        },
+                        {
+                            term: "*2-3 months spent in underwriting, implementations, and product support.",
+                            classes: "top-1"
+                        },
+                        {
+                            term: "Opportunity: ",
+                            details: "How might we eliminate third-party dependencies, take full ownership of the end-to-end experience, reduce manual processes, and improve time to first payment?",
+                            classes: "top-1"
+                        },
+                        {
+                            term: "Outcome Goal: ",
+                            details: "Enable the business to move faster and ensure clients realize value from the product as quickly as possible after purchase.",
+                            classes: "top-1"
+                        },
+                        {
+                            term: "*2-3 weeks spent in underwriting, implementations, and product support.",
+                            classes: "top-1"
+                        }
+                    ],
+                },
+                {
+                    title: "Design Thinking + Competitive",
+                    intro: "Facilitated design thinking workshops to uncover core user needs and define the foundation of the solution. Conducted research on comparable portals to align stakeholders around a clear vision for how our platform should look, feel, and function.",
+                    stacked_images: [
+                        {
+                            url: '/featured-projects/versapay/design/versapay-design-1.png',
+                            alt: 'versapay design 1'
+                        },
+                        {
+                            url: '/featured-projects/versapay/design/versapay-design-2.png',
+                            alt: 'versapay design 2'
+                        },  
+                    ]
+                },
+                {
+                    title: "Workshops + Jobs To Be Done",
+                    intro: "Ran a Jobs to Be Done workshop to uncover every role touching the sales lifecycle and clarify the key outcomes each is responsible for delivering.",
+                    stacked_images: [
+                        {
+                            url: '/featured-projects/versapay/workshops/versapay-workshops-1.png',
+                            alt: 'versapay workshops 1'
+                        }
+                    ]
+                },
+                {
+                    title: "Challenges",
+                    description_list: [
+                        {
+                            details: "While we had a long-term vision captured in a three-year white paper, there was no clear definition of phased requirements or prioritization for where to start. This created ambiguity around scope, sequencing, and what an initial release should include."
+                        },
+                        {
+                            details: "We also faced foundational design decisions early on—whether to extend the existing design system or establish a new one tailored to the Operations Portal. Regardless of direction, there were no established patterns or templates to follow, meaning every interaction and workflow had to be defined from scratch.",
+                            classes: "top-1"
+                        },
+                        {
+                            details: "As the product evolved, we continuously iterated on scope, often scaling back functionality to define a focused and viable MVP. This required balancing long-term vision with immediate business needs and delivery constraints.",
+                            classes: "top-1"
+                        },
+                    ]
+                },
+                {
+                    title: "Interviews and Usability",
+                    intro: "Testing with real users proved far more valuable than relying on assumptions. While most usability issues didn’t block task completion, the feedback revealed moments of hesitation and uncertainty. These insights allowed me to refine designs, and prototypes to create a more confident and seamless experience.",
+                    stacked_images: [
+                        {
+                            url: '/featured-projects/versapay/interviews/versapay-interviews-1.png',
+                            alt: 'versapay interviews 1'
+                        },
+                        {
+                            url: '/featured-projects/versapay/interviews/versapay-interviews-2.png',
+                            alt: 'versapay interviews 2'
+                        }
+                    ]
+                },
+                {
+                    title: "Delivery",
+                    intro: "Used Figma to clearly communicate design readiness for development, ensuring alignment across teams. Partnered closely with product and engineering in team discussions to walk through user stories and review impacted designs. Added annotations and expanded flows where needed to ensure requirements were fully captured. This was a highly collaborative, cross-functional effort.",
+                    stacked_images: [
+                        {
+                            url: '/featured-projects/versapay/delivery/versapay-delivery-1.png',
+                            alt: 'versapay delivery 1'
+                        }
+                    ]
+                },
+            ]
+        },
+        {
+            id: 6,
+            hidden: true,
+            title: "Blender - dApp",
+            name: "blender",
+            link_name: "Blender",
+            slug: "blender",
+            gradient: "blender",
+            testImg: "shaq.png",
+            lead: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously.",
+            banner_text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
+            banner: {
+                title: "Blender - dApp",
+                text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
+                background: 'blender-banner',
+            },
+
+            sections: [
+                {
                     title: "Final Product",
-                    intro: "I've lead white label projects (200+ client websites) from idea to launch on Account Center. This is a deep dive into just one of those projects; credit card activation.",
+                    intro: "Here's the end result of all of the hard work that went into the project. Keep scrolling if you want to learn about all the work that went into the process.",
                     button: {
-                        classes: "btn btn-gradient btn-gradient-blue",
-                        text: "View Account Center",
-                        url: "https://d.comenity.net/ac/nflvisa/public/home"
+                        classes: "btn btn-gradient btn-gradient-green",
+                        text: "Not Yet Released",
+                        url: ""
                     },
                     image: {
-                        url: "/featured-projects/final/bread-account-center.png",
-                        alt: "Bread Account Center - Final Product",
-                        classes: "bread image-wrap"
+                        url: "/featured-projects/final/blender.png",
+                        alt: "Blender",
+                        classes: "blender"
                     }
                 },
                 {
                     title: "The Problem",
-                    intro: "The Problem: How might we make card activation faster to increase spend on credit cards while also encouraging registration, paperless, and Account Assure.",
-                    deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'Prototypes', 'Flows', 'User Testing', 'Scenarios', 'High Fidelity Designs']
+                    intro: "How might we allow users to send transactions anonymously so that they can get a sense of privacy on the blockchain.",
+                    deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'High Fidelity Designs']
                 },
-            ]
-        },
-        // {
-        //     id: 6,
-        //     title: "Blender - dApp",
-        //     name: "blender",
-        //     link_name: "Blender",
-        //     slug: "blender",
-        //     gradient: "blender",
-        //     testImg: "shaq.png",
-        //     lead: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously.",
-        //     banner_text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
-        //     banner: {
-        //         title: "Blender - dApp",
-        //         text: "Blender is a smart contract on Lamden that makes it possible to send transactions anonymously — your transfer address will never know where it originated.",
-        //         background: 'blender-banner',
-        //     },
-
-        //     sections: [
-        //         {
-        //             title: "Final Product",
-        //             intro: "Here's the end result of all of the hard work that went into the project. Keep scrolling if you want to learn about all the work that went into the process.",
-        //             button: {
-        //                 classes: "btn btn-gradient btn-gradient-green",
-        //                 text: "Not Yet Released",
-        //                 url: ""
-        //             },
-        //             image: {
-        //                 url: "/featured-projects/final/blender.png",
-        //                 alt: "Blender",
-        //                 classes: "blender"
-        //             }
-        //         },
-        //         {
-        //             title: "The Problem",
-        //             intro: "How might we allow users to send transactions anonymously so that they can get a sense of privacy on the blockchain.",
-        //             deliverables: ['Problem Statement', 'Low Fidelity Designs', 'Competitive Analysis', 'High Fidelity Designs']
-        //         },
-        //         {
-        //             title: "Wireframes",
-        //             intro: "This was a project that started with few requirements and direction. To save myself time and to move fast, I created wireframes to make sure the project stakeholder could give approval on the idea and direction.",
-        //             images: [
-        //                 {
-        //                     url: '/featured-projects/wireframes/blender/deposit.png',
-        //                     alt: 'Blender - Deposit',
-        //                     classes: 'blender'
-        //                 },
-        //                 {
-        //                     url: '/featured-projects/wireframes/blender/withdraw.png',
-        //                     alt: 'Blender - Withdraw',
-        //                     classes: 'blender'
-        //                 },
-        //                 {
-        //                     url: '/featured-projects/wireframes/blender/confirm.png',
-        //                     alt: 'Blender - Confirm',
-        //                     classes: 'blender'
-        //                 },
-        //             ]
-        //         },
-        //         {
-        //             title: "Fonts, Colors & Buttons",
-        //             intro: "I landed on a “DOS Mode” theme with dark colors and a bright green to give this a science fiction vibe.",
-        //             image: {
-        //                 url: '/featured-projects/fonts/blender.png',
-        //                 alt: "Blender - Fonts, Colors & Buttons",
-        //                 classes: 'blender'
-        //             }
-        //         },
-        //         {
-        //             title: "Launch",
-        //             intro: "The design was created in Figma to help with velocity, speed, and collaboration for the design and development.",
-        //             button: {
-        //                 classes: "btn btn-gradient btn-gradient-green",
-        //                 text: "Not Yet Released",
-        //                 url: ""
-        //             },
-        //             image: {
-        //                 url: "/featured-projects/launch/blender.png",
-        //                 alt: "Blender",
-        //                 classes: "blender"
-        //             }
-        //         },
-        //     ],
-        // }
+                {
+                    title: "Wireframes",
+                    intro: "This was a project that started with few requirements and direction. To save myself time and to move fast, I created wireframes to make sure the project stakeholder could give approval on the idea and direction.",
+                    images: [
+                        {
+                            url: '/featured-projects/wireframes/blender/deposit.png',
+                            alt: 'Blender - Deposit',
+                            classes: 'blender'
+                        },
+                        {
+                            url: '/featured-projects/wireframes/blender/withdraw.png',
+                            alt: 'Blender - Withdraw',
+                            classes: 'blender'
+                        },
+                        {
+                            url: '/featured-projects/wireframes/blender/confirm.png',
+                            alt: 'Blender - Confirm',
+                            classes: 'blender'
+                        },
+                    ]
+                },
+                {
+                    title: "Fonts, Colors & Buttons",
+                    intro: "I landed on a “DOS Mode” theme with dark colors and a bright green to give this a science fiction vibe.",
+                    image: {
+                        url: '/featured-projects/fonts/blender.png',
+                        alt: "Blender - Fonts, Colors & Buttons",
+                        classes: 'blender'
+                    }
+                },
+                {
+                    title: "Launch",
+                    intro: "The design was created in Figma to help with velocity, speed, and collaboration for the design and development.",
+                    button: {
+                        classes: "btn btn-gradient btn-gradient-green",
+                        text: "Not Yet Released",
+                        url: ""
+                    },
+                    image: {
+                        url: "/featured-projects/launch/blender.png",
+                        alt: "Blender",
+                        classes: "blender"
+                    }
+                },
+            ],
+        }
     ],
     process: [
         {
             title: "Understand",
             text: "Learn the problem you're trying to solve through conversation and research.",
-            gradient: "understand"
+            classes: "blue-gradient-card"
         },
         {
-            title: "Wireframe",
-            text: "Create wireframes of your product or feature to explore different possibilities to solve the problem.",
-            gradient: "wireframe"
+            title: "AI",
+            text: "Partnered with LLMs to accelerate research, streamline workflows, and iterate more rapidly.",
+            classes: "pink-gradient-card"
         },
         {
             title: "Design",
             text: "Turn your wireframes into pixel perfect visuals to capture the look and feel you want to convey.",
-            gradient: "design"
+            classes: "gold-gradient-card"
         },
         {
             title: "Prototype",
             text: "Bring your idea to life that's usable and functional to navigate through the experience.",
-            gradient: "prototype"
+            classes: "lavender-gradient-card"
         },
         {
             title: "User Test",
             text: "Watch users explore your products and features to hear their feedback and learn from their behavior.",
-            gradient: "user-test"
+            classes: "green-gradient-card"
         },
         {
             title: "Learn",
             text: "Iterate until you have real data to show your product or feature solves the problem you were trying to solve.",
-            gradient: "learn"
+            classes: "blue-gradient-card"
         }
     ],
     process_intro: "My job is to bring your vision to light. This starts with an understanding of your wants and needs. From there, I design and prototype to match the goal of the project, deliver a high-quality and user tested product, and continually learn from the data to ensure a positive result.",

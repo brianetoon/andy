@@ -18,9 +18,6 @@ export default {
 </script>
 
 <style>
-:root {
-    --list-spacing: 12px;
-}
 ul.deliverables {
     margin-left: calc(-1 * var(--list-spacing));
     margin-right: calc(-1 * var(--list-spacing));

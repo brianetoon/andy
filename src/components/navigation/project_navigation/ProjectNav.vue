@@ -1,7 +1,8 @@
 <template>
     <header class="project-nav">
         <div class="nav-content">
-            <h2 class="logo">Andy Phillips</h2>
+            <router-link class="logo" :to="{ name: 'Home' }">Andy Phillips</router-link>
+            <!-- <h2 class="logo">Andy Phillips</h2> -->
 
             <nav>
                 <router-link :to="{ name: 'Home' }">Home</router-link>

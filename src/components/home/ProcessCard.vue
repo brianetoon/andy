@@ -1,5 +1,5 @@
 <template>
-    <div class="process-card" :class="item.gradient">
+    <div class="process-card" :class="item.classes">
         <div class="card-content">
             <h3>{{ item.title }}</h3>
             <p>{{ item.text }}</p>
@@ -29,36 +29,34 @@ export default {
 }
 
 /* Dynamic Classes */
-.understand, 
-.learn {
+.blue-gradient-card {
     background: var(--blue-gradient);
 }
-.understand > *,
-.learn > * {
+.blue-gradient-card > * {
     color: var(--gr-blue-lt);
 }
-.wireframe {
+.pink-gradient-card {
     background: var(--pink-gradient);
 }
-.wireframe > * {
+.pink-gradient-card > * {
     color: var(--gr-pink-extra-lt);
 }
-.design {
+.gold-gradient-card {
     background: var(--gold-gradient);
 }
-.design > * {
+.gold-gradient-card > * {
     color: var(--gr-gold-lt);
 }
-.prototype {
+.lavender-gradient-card {
     background: var(--lavender-gradient);
 }
-.prototype > * {
+.lavender-gradient-card > * {
     color: var(--gr-lavender-lt);
 }
-.user-test {
+.green-gradient-card {
     background: var(--green-gradient);
 }
-.user-test > * {
+.green-gradient-card > * {
     color: var(--gr-green-dk)
 }
 

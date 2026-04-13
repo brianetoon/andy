@@ -7,10 +7,9 @@
 
         <div class="overlay">
             <div class="content">
-                <h1>Hi, I'm Andy.</h1>
+                <h1>Hi, I’m Andy.</h1>
                 <p class="lead">
-                    I'm a Product Designer at Bread Financial. I'm currently creating digital
-                    <br> experiences for personalized payment, lending and saving solutions.
+                    I’m a Senior Product Designer at Versapay, where I design digital experiences <br> for accounts receivable that streamline and simplify B2B payments.
                 </p>
                 <a href="mailto: uxandyphil@gmail.com" class="btn btn-outline btn-border-primary">
                     Email Me

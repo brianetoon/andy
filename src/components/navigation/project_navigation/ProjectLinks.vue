@@ -16,9 +16,9 @@ import { ref } from '@vue/reactivity'
 
 export default {
     setup(props, { emit }) {
-        const projects = ref(store.projects)
+        const filteredProjects = store.projects.filter(p => !p.hidden)
+        const projects = ref(filteredProjects)
         const close = () => emit('close')
-
         return { projects, close }
     }
 }
